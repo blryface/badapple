@@ -10,7 +10,7 @@ in vec3 vaPosition;
 
 void main(){
     vec4 outputColorData = texture(gtexture,texCoord);
-    vec3 outputColor = outputColorData.rgb - vec3(1,1,1);
+    vec3 outputColor = vec3(0,0,0); //set terrain color to black
     float transparency = outputColorData.a;
 
     if (transparency < .1) {

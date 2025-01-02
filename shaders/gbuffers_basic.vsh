@@ -11,6 +11,5 @@ out vec2 texCoord;
 
 void main(){
     texCoord = vaUV0;
-
-    gl_Position = projectionMatrix * modelViewMatrix * vec4(vaPosition+chunkOffset,1);
+    gl_Position = projectionMatrix * modelViewMatrix * vec4(vaPosition+chunkOffset,1); //makes terrain render in the correct place
 }

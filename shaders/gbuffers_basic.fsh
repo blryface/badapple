@@ -15,7 +15,7 @@ void main(){
     vec3 outputColor = vec3(0,0,0); //set terrain color to black
     float transparency = outputColorData.a;
 
-    if (transparency < .6) {
+    if (transparency < .1) {
         discard;
     }
     outColor0 = vec4(outputColor, transparency);

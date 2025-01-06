@@ -13,10 +13,15 @@ This is a - now working - Iris<!--/OptiFine--> shader which changes rendering to
 ## FAQ
 <!-- Nobody has asked anything yet but I'll just say the obvious here -->
 Q: Does this work on OptiFine?
+
 A: Yes, with the OptiFine version specifically.
+
 Q: Does this work on Iris/Oculus?
+
 A: Yes, with the Iris version specifically.
+
 Q: Does this work on 1.8?
+
 A: <!-- The OptiFine version should work with 1.8. --> No, not currently. We are working to get it working on 1.8, but as of writing, it doesn't support it.
 
 ## Pridepack

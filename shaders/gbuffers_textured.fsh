@@ -11,7 +11,7 @@ in vec2 texCoord;
 
 void main(){
     vec4 outputColorData = texture(gtexture,texCoord);
-    vec3 outputColor = vec3(1,1,1); //set terrain color to black
+    vec3 outputColor = vec3(0,0,0); //set terrain color to black
     float transparency = outputColorData.a;
 
     if (transparency < .1) {

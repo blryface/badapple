@@ -2,16 +2,13 @@
 
 #extension GL_ARB_explicit_attrib_location : enable
 
-in vec4 starData; //a = flag for weather or not this pixel is a star.
+in float starData;
 
 /* DRAWBUFFERS:0 */
 layout(location = 0) out vec4 outColor0;
 
 void main() {
-	vec3 color;
-	color = vec3(0,0,0);
-	if (starData.a > 0.5) {
-		color = vec3(1,1,1);
-	}
+	float skycolor=float((starData-0.5)*10);
+	vec3 color = vec3(skycolor,skycolor,skycolor);
 	outColor0 = vec4(color, 1.0);
 }

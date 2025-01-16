@@ -12,7 +12,6 @@ in float starData;
 layout(location = 0) out vec4 outColor0;
 
 void main() {
-	float skycolor=float((starData-0.5)*10);
-	vec3 color = vec3(skycolor*star_red,skycolor*star_green,skycolor*star_blue);
+	vec3 color = vec3(starData*star_red,starData*star_green,starData*star_blue);
 	outColor0 = vec4(color, 1.0);
 }

@@ -15,7 +15,7 @@ in vec2 texCoord;
 
 void main(){
     vec4 outputColorData = texture(gtexture,texCoord);
-    vec3 outputColor = vec3(hand_red,hand_green, hand_blue); //make hand white
+    vec3 outputColor = vec3(hand_red,hand_green, hand_blue);
     float transparency = outputColorData.a;
 
     if (transparency < .1) {

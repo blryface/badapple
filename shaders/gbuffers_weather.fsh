@@ -15,7 +15,7 @@ in vec2 texCoord;
 
 void main(){
     vec4 outputColorData = texture(gtexture,texCoord);
-    vec3 outputColor = vec3(weather_red,weather_green,weather_blue); //set everything that does not have a file for it to render as the color white in theory
+    vec3 outputColor = vec3(weather_red,weather_green,weather_blue);
     float transparency = outputColorData.a;
 
     if (transparency < .1) {

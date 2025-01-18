@@ -1,0 +1,67 @@
+profile.white_on_black = white on black
+profile.black_on_white = black on white
+
+screen.blocks = block color
+screen.entities = entite color
+screen.sky = sky color
+screen.particles = particle color
+screen.stars = star color
+screen.weather = weather color
+screen.hand = hand color
+screen.clouds = cloud color
+screen.beacon_beams = beam color
+screen.other = others colors
+
+option.blocks_red = blocks red
+option.blocks_green = blocks green
+option.blocks_blue = blocks blue
+
+option.entites_red = entites red
+option.entites_green = entites green
+option.entites_blue = entites blue
+option.entites_shadows = do entites have shadows
+value.entites_shadows.0 = off
+value.entites_shadows.1 = on
+#entites_shadows also fixes translucency of entities if enabled
+
+option.sky_red = sky red
+option.sky_green = sky green
+option.sky_blue = sky blue
+#does not work
+
+option.particle_red = particle red
+option.particle_green = particle green
+option.particle_blue = particle blue
+
+option.star_red = star red
+option.star_green = star green
+option.star_blue = star blue
+
+option.weather_red = weather red
+option.weather_green = weather green
+option.weather_blue = weather blue
+#weather applys to falling rain/snow, doesn’t include particles
+
+option.hand_red = hand red
+option.hand_green = hand green
+option.hand_blue = hand blue
+option.hand_invisible = hand invisiblity
+value.hand_invisible.0 = false
+value.hand_invisible = true
+
+option.clouds_red = clouds red
+option.clouds_green = clouds green
+option.clouds_blue = clouds blue
+option.hide_clouds = hide clouds
+value.hide_clouds.0 = false
+value.hide_clouds.1 = true
+
+option.beacon_beams_red = beam red
+option.beacon_beams_green = beam green
+option.beacon_beams_blue = beam blue
+#beacon_beams also applys to the dragon death beams
+
+option.other_red = other red
+option.other_green = other green
+option.other_blue = other blue
+#as far as I can tell this only applys to lines ie fishing rod/leads

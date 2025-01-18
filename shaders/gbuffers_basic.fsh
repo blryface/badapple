@@ -2,9 +2,9 @@
 
 #extension GL_ARB_explicit_attrib_location : enable
 
-#define other_red 1 // [1 0.875 0.75 0.625 0.5 0.375 0.25 0.125 0]
-#define other_green 1 // [1 0.875 0.75 0.625 0.5 0.375 0.25 0.125 0]
-#define other_blue 1 // [1 0.875 0.75 0.625 0.5 0.375 0.25 0.125 0]
+#define other_red 1 // [0 0.125 0.25 0.375 0.5 0.625 0.75 0.875 1]
+#define other_green 1 // [0 0.125 0.25 0.375 0.5 0.625 0.75 0.875 1]
+#define other_blue 1 // [0 0.125 0.25 0.375 0.5 0.625 0.75 0.875 1]
 
 uniform sampler2D gtexture;
 

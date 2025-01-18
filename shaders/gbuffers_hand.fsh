@@ -4,9 +4,10 @@
 
 uniform sampler2D gtexture;
 
-#define hand_red 1 // [1 0.875 0.75 0.625 0.5 0.375 0.25 0.125 0]
-#define hand_green 1 // [1 0.875 0.75 0.625 0.5 0.375 0.25 0.125 0]
-#define hand_blue 1 // [1 0.875 0.75 0.625 0.5 0.375 0.25 0.125 0]
+#define hand_red 1 // [0 0.125 0.25 0.375 0.5 0.625 0.75 0.875 1]
+#define hand_green 1 // [0 0.125 0.25 0.375 0.5 0.625 0.75 0.875 1]
+#define hand_blue 1 // [0 0.125 0.25 0.375 0.5 0.625 0.75 0.875 1]
+#define hand_invisible 0 // [1 0]
 
 /* DRAWBUFFERS:0 */
 layout(location = 0) out vec4 outColor0;
@@ -16,7 +17,7 @@ in vec2 texCoord;
 void main(){
     vec4 outputColorData = texture(gtexture,texCoord);
     vec3 outputColor = vec3(hand_red,hand_green, hand_blue);
-    float transparency = outputColorData.a;
+    float transparency = outputColorData.a-hand_invisible;
 
     if (transparency < .1) {
         discard;

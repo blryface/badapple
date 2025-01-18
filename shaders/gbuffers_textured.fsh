@@ -4,9 +4,9 @@
 
 uniform sampler2D gtexture;
 
-#define blocks_red 0 // [1 0.875 0.75 0.625 0.5 0.375 0.25 0.125 0]
-#define blocks_green 0 // [1 0.875 0.75 0.625 0.5 0.375 0.25 0.125 0]
-#define blocks_blue 0 // [1 0.875 0.75 0.625 0.5 0.375 0.25 0.125 0]
+#define blocks_red 0 // [0 0.125 0.25 0.375 0.5 0.625 0.75 0.875 1]
+#define blocks_green 0 // [0 0.125 0.25 0.375 0.5 0.625 0.75 0.875 1]
+#define blocks_blue 0 // [0 0.125 0.25 0.375 0.5 0.625 0.75 0.875 1]
 
 /* DRAWBUFFERS:0 */
 layout(location = 0) out vec4 outColor0;

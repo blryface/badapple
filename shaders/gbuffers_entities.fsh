@@ -2,9 +2,10 @@
 
 #extension GL_ARB_explicit_attrib_location : enable
 
-#define entites_red 1 // [1 0.875 0.75 0.625 0.5 0.375 0.25 0.125 0]
-#define entites_green 1 // [1 0.875 0.75 0.625 0.5 0.375 0.25 0.125 0]
-#define entites_blue 1 // [1 0.875 0.75 0.625 0.5 0.375 0.25 0.125 0]
+#define entites_red 1 // [0 0.125 0.25 0.375 0.5 0.625 0.75 0.875 1]
+#define entites_green 1 // [0 0.125 0.25 0.375 0.5 0.625 0.75 0.875 1]
+#define entites_blue 1 // [0 0.125 0.25 0.375 0.5 0.625 0.75 0.875 1]
+#define entites_shadows 0 //[1 0]
 
 uniform sampler2D gtexture;
 
@@ -20,5 +21,5 @@ void main(){
     if (transparency < .1) {
         discard;
     }
-    outColor0 = vec4(outputColor, 0);
+    outColor0 = vec4(outputColor, entites_shadows);
 }

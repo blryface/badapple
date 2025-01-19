@@ -47,7 +47,7 @@ option.hand_green = hand green
 option.hand_blue = hand blue
 option.hand_invisible = hand invisiblity
 value.hand_invisible.0 = false
-value.hand_invisible = true
+value.hand_invisible.1 = true
 
 option.clouds_red = clouds red
 option.clouds_green = clouds green

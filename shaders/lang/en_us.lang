@@ -1,67 +1,69 @@
-profile.white_on_black = white on black
-profile.black_on_white = black on white
+profile.white_on_black = White on black
+profile.black_on_white = Black on white
 
-screen.blocks = block color
-screen.entities = entite color
-screen.sky = sky color
-screen.particles = particle color
-screen.stars = star color
-screen.weather = weather color
-screen.hand = hand color
-screen.clouds = cloud color
-screen.beacon_beams = beam color
-screen.other = others colors
+screen.blocks = Block color
+screen.entities = Entity color
+screen.sky = Sky color
+screen.particles = Particle color
+screen.stars = Star color
+screen.weather = Weather color
+screen.hand = Hand color
+screen.clouds = Cloud color
+screen.beacon_beams = Beacon and entity beams color
+screen.other = Other colors
 
-option.blocks_red = blocks red
-option.blocks_green = blocks green
-option.blocks_blue = blocks blue
+option.blocks_red = Blocks red value
+option.blocks_green = Blocks green value
+option.blocks_blue = Blocks blue value
 
-option.entites_red = entites red
-option.entites_green = entites green
-option.entites_blue = entites blue
-option.entites_shadows = do entites have shadows
-value.entites_shadows.0 = off
-value.entites_shadows.1 = on
-#entites_shadows also fixes translucency of entities if enabled
+option.entites_red = Entites red value
+option.entites_green = Entites green value
+option.entites_blue = Entites blue value
+option.entites_shadows = Enable entity shaddows
+value.entites_shadows.0 = Off
+value.entites_shadows.1 = On
+#entites_shadows Also fixes translucency of entities if enabled
 
-option.sky_red = sky red
-option.sky_green = sky green
-option.sky_blue = sky blue
-#does not work
+option.sky_red = Sky red value
+option.sky_green = Sky green value
+option.sky_blue = Sky blue values
+#does not work (bruh)
 
-option.particle_red = particle red
-option.particle_green = particle green
-option.particle_blue = particle blue
+option.particle_red = Particle red value
+option.particle_green = Particle green value
+option.particle_blue = Particle blue value
 
-option.star_red = star red
-option.star_green = star green
-option.star_blue = star blue
+option.star_red = Star red value
+option.star_green = Star green value
+option.star_blue = Star blue value
 
-option.weather_red = weather red
-option.weather_green = weather green
-option.weather_blue = weather blue
-#weather applys to falling rain/snow, doesn’t include particles
+option.weather_red = Weather red value
+option.weather_green = Weather green value
+option.weather_blue = Weather blue value
+#weather applies to falling rain/snow, doesn’t include rain splash particles
 
-option.hand_red = hand red
-option.hand_green = hand green
-option.hand_blue = hand blue
-option.hand_invisible = hand invisiblity
-value.hand_invisible.0 = false
-value.hand_invisible.1 = true
+option.hand_red = Hand red value
+option.hand_green = Hand green value
+option.hand_blue = Hand blue value
+option.hand_invisible = Hand invisiblity
+value.hand_invisible.0 = False
+value.hand_invisible.1 = True
 
-option.clouds_red = clouds red
-option.clouds_green = clouds green
-option.clouds_blue = clouds blue
-option.hide_clouds = hide clouds
-value.hide_clouds.0 = false
-value.hide_clouds.1 = true
+option.clouds_red = Clouds red value
+option.clouds_green = Clouds green value
+option.clouds_blue = Clouds blue value
+option.hide_clouds = Hide clouds
+value.hide_clouds.0 = False
+value.hide_clouds.1 = True
+#I love we use 0 and 1 (black and white) for variables too :3
 
-option.beacon_beams_red = beam red
-option.beacon_beams_green = beam green
-option.beacon_beams_blue = beam blue
-#beacon_beams also applys to the dragon death beams
+option.beacon_beams_red = Beacon and entity beams red value
+option.beacon_beams_green = Beacon and entity beams green value
+option.beacon_beams_blue = Beacon and entity beams blue value
+#beacon_beams also applies to the dragon death beams
 
-option.other_red = other red
-option.other_green = other green
-option.other_blue = other blue
+option.other_red = Other red values
+option.other_green = Other green value
+option.other_blue = Other blue value
 #as far as I can tell this only applys to lines ie fishing rod/leads
+#nice

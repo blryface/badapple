@@ -5,7 +5,7 @@
 #define entites_red 1 // [0 0.125 0.25 0.375 0.5 0.625 0.75 0.875 1]
 #define entites_green 1 // [0 0.125 0.25 0.375 0.5 0.625 0.75 0.875 1]
 #define entites_blue 1 // [0 0.125 0.25 0.375 0.5 0.625 0.75 0.875 1]
-#define entites_shadows 0 //[1 0]
+#define entites_shadows 1 //[1 0]
 
 uniform sampler2D gtexture;
 

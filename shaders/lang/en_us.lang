@@ -1,6 +1,6 @@
 profile.white_on_black = White on black
 profile.black_on_white = Black on white
-profile.comment = quick change for how everything looks
+profile.comment = quick change for how everything looks. White on black will also brake stars
 
 screen.blocks = Block color
 screen.entities = Entity color
@@ -38,9 +38,9 @@ option.entites_shadows.comment = if disabled this will break entity translucency
 option.sky_red = Sky red value
 option.sky_green = Sky green value
 option.sky_blue = Sky blue values
-option.sky_red.comment = does not currently work
-option.sky_green.comment = does not currently work
-option.sky_blue.comment = does not currently work
+option.sky_red.comment = the stars only come out at night! the stars will not show if it is to bright.
+option.sky_green.comment = the stars only come out at night! the stars will not show if it is to bright.
+option.sky_blue.comment = the stars only come out at night! the stars will not show if it is to bright.
 
 option.particle_red = Particle red value
 option.particle_green = Particle green value
@@ -49,6 +49,9 @@ option.particle_blue = Particle blue value
 option.star_red = Star red value
 option.star_green = Star green value
 option.star_blue = Star blue value
+option.star_red.comment = as the stars get darker they become more transparent
+option.star_green.comment = as the stars get darker they become more transparent
+option.star_blue.comment = as the stars get darker they become more transparent
 
 option.weather_red = Weather red value
 option.weather_green = Weather green value

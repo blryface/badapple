@@ -1,6 +1,6 @@
 profile.white_on_black = Branco no preto
 profile.black_on_white = Preto no branco
-profile.comment = quick change for how it looks
+profile.comment = quick change for how it looks. White on black will also brake stars
 
 screen.blocks = Cor do bloco
 screen.entities = Cor das entidades
@@ -38,9 +38,9 @@ option.entites_shadows.comment = if disabled this will break entity translucency
 option.sky_red = Valor vermelho do céu
 option.sky_green = Valor azul do céu
 option.sky_blue = Valor azul do céu
-option.sky_red.comment = does not currently work
-option.sky_green.comment = does not currently work
-option.sky_blue.comment = does not currently work
+option.sky_red.comment = the stars only come out at night! the stars will not show if it is to bright.
+option.sky_green.comment = the stars only come out at night! the stars will not show if it is to bright.
+option.sky_blue.comment = the stars only come out at night! the stars will not show if it is to bright.
 
 option.particle_red = Valor vermelho das partículas
 option.particle_green = Valor verde das partículas
@@ -49,6 +49,9 @@ option.particle_blue = Valor azul das partículas
 option.star_red = Valor vermelho das estrelas
 option.star_green = Valor verde das estrelas
 option.star_blue = Valor azul das estrelas
+option.star_red.comment = as the stars get darker they become more transparent
+option.star_green.comment = as the stars get darker they become more transparent
+option.star_blue.comment = as the stars get darker they become more transparent
 
 option.weather_red = Valor vermelho do tempo
 option.weather_green = Valor verde do tempo

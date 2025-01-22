@@ -1,5 +1,6 @@
 profile.white_on_black = White on black
 profile.black_on_white = Black on white
+profile.comment = quick change for how everything looks
 
 screen.blocks = Block color
 screen.entities = Entity color
@@ -11,6 +12,16 @@ screen.hand = Hand color
 screen.clouds = Cloud color
 screen.beacon_beams = Beacon and entity beams color
 screen.other = Other colors
+screen.blocks.comment = changes the colors of blocks
+screen.entities.comment = changes the colors of entities
+screen.sky.comment = changes the colors of the sky (currently does not work)
+screen.particles.comment = changes the colors of particles
+screen.stars.comment = changes the colors of stars
+screen.weather.comment = changes the colors of the weather (doesn’t include rain splash particles)
+screen.hand.comment = changes the colors of your hand
+screen.clouds.comment = changes the colors of the clouds
+screen.beacon_beams.comment = changes the color of beacon and ender dragon beam color
+screen.other.comment = changes the color of things I forgot about
 
 option.blocks_red = Blocks red value
 option.blocks_green = Blocks green value
@@ -22,12 +33,14 @@ option.entites_blue = Entites blue value
 option.entites_shadows = Enable entity shaddows
 value.entites_shadows.0 = Off
 value.entites_shadows.1 = On
-#entites_shadows Also fixes translucency of entities if enabled
+option.entites_shadows.comment = if disabled this will break entity translucency
 
 option.sky_red = Sky red value
 option.sky_green = Sky green value
 option.sky_blue = Sky blue values
-#does not work (bruh)
+option.sky_red.comment = does not currently work
+option.sky_green.comment = does not currently work
+option.sky_blue.comment = does not currently work
 
 option.particle_red = Particle red value
 option.particle_green = Particle green value
@@ -40,7 +53,6 @@ option.star_blue = Star blue value
 option.weather_red = Weather red value
 option.weather_green = Weather green value
 option.weather_blue = Weather blue value
-#weather applies to falling rain/snow, doesn’t include rain splash particles
 
 option.hand_red = Hand red value
 option.hand_green = Hand green value
@@ -48,6 +60,7 @@ option.hand_blue = Hand blue value
 option.hand_invisible = Hand invisiblity
 value.hand_invisible.0 = False
 value.hand_invisible.1 = True
+option.hand_invisible.comment = if enabled the hand will not be visible
 
 option.clouds_red = Clouds red value
 option.clouds_green = Clouds green value
@@ -55,15 +68,15 @@ option.clouds_blue = Clouds blue value
 option.hide_clouds = Hide clouds
 value.hide_clouds.0 = False
 value.hide_clouds.1 = True
+option.hide_clouds.comment = controles if clouds are visible
 #I love we use 0 and 1 (black and white) for variables too :3
 
 option.beacon_beams_red = Beacon and entity beams red value
 option.beacon_beams_green = Beacon and entity beams green value
 option.beacon_beams_blue = Beacon and entity beams blue value
-#beacon_beams also applies to the dragon death beams
 
 option.other_red = Other red values
 option.other_green = Other green value
 option.other_blue = Other blue value
 #as far as I can tell this only applys to lines ie fishing rod/leads
-#nice
+#nice (not anymore)

@@ -66,6 +66,7 @@ value.hand_invisible.1 = True
 option.hand_invisible.comment = if enabled the hand will not be visible
 
 option.clouds_red = Clouds red value
+#nice (again)
 option.clouds_green = Clouds green value
 option.clouds_blue = Clouds blue value
 option.hide_clouds = Hide clouds
@@ -82,4 +83,3 @@ option.other_red = Other red values
 option.other_green = Other green value
 option.other_blue = Other blue value
 #as far as I can tell this only applys to lines ie fishing rod/leads
-#nice (not anymore)

@@ -66,6 +66,7 @@ value.hand_invisible.1 = Ativado
 option.hand_invisible.comment = if enabled the hand will not be visible
 
 option.clouds_red = Valor vermelho das nuvens
+#nice (again)
 option.clouds_green = Valor verde das nuvens
 option.clouds_blue = Valor azul das nuvens
 option.hide_clouds = Esconder nuvens
@@ -82,4 +83,3 @@ option.other_red = Outros valores vermelhos
 option.other_green = Outros valores verdes
 option.other_blue = Outros valores azuis
 #as far as I can tell this only applys to lines ie fishing rod/leads
-#nice (not anymore)

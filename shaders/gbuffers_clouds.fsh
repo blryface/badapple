@@ -19,8 +19,5 @@ void main(){
     vec3 outputColor = vec3(clouds_red, clouds_green,clouds_blue);
     float transparency = outputColorData.a-hide_clouds;
 
-    if (transparency < .1) {
-        discard;
-    }
     outColor0 = vec4(outputColor, transparency);
 }

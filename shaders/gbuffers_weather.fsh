@@ -18,8 +18,5 @@ void main(){
     vec3 outputColor = vec3(weather_red,weather_green,weather_blue);
     float transparency = outputColorData.a;
 
-    if (transparency < .1) {
-        discard;
-    }
     outColor0 = vec4(outputColor, transparency);
 }

@@ -1,6 +1,6 @@
 profile.white_on_black = White on black
 profile.black_on_white = Black on white
-profile.comment = quick change for how everything looks. White on black will also brake stars
+profile.comment = Quick setting to change how everything looks. White on black makes the sky and blocks black and entities white, Black on white makes the sky and blocks white and entities black. White on black will also break stars
 
 screen.blocks = Block color
 screen.entities = Entity color
@@ -12,16 +12,16 @@ screen.hand = Hand color
 screen.clouds = Cloud color
 screen.beacon_beams = Beacon and entity beams color
 screen.other = Other colors
-screen.blocks.comment = changes the colors of blocks
-screen.entities.comment = changes the colors of entities
-screen.sky.comment = changes the colors of the sky (currently does not work)
-screen.particles.comment = changes the colors of particles
-screen.stars.comment = changes the colors of stars
-screen.weather.comment = changes the colors of the weather (doesn’t include rain splash particles)
-screen.hand.comment = changes the colors of your hand
-screen.clouds.comment = changes the colors of the clouds
-screen.beacon_beams.comment = changes the color of beacon and ender dragon beam color
-screen.other.comment = changes the color of things I forgot about
+screen.blocks.comment = Controls the colors of blocks
+screen.entities.comment = Controls the colors of entities
+screen.sky.comment = Controls the colors of the sky. Setting it to a very bright color will break stars.
+screen.particles.comment = Controls the colors of particles
+screen.stars.comment = Controls the colors of stars
+screen.weather.comment = Controls the colors of the weather (doesn’t include rain splash particles)
+screen.hand.comment = Controls the colors of your hand
+screen.clouds.comment = Controls the colors of the clouds
+screen.beacon_beams.comment = Controls the color of beacon and ender dragon beam color
+screen.other.comment = Controls the color of things I forgot about
 
 option.blocks_red = Blocks red value
 option.blocks_green = Blocks green value
@@ -33,14 +33,14 @@ option.entites_blue = Entites blue value
 option.entites_shadows = Enable entity shaddows
 value.entites_shadows.0 = Off
 value.entites_shadows.1 = On
-option.entites_shadows.comment = if disabled this will break entity translucency
+option.entites_shadows.comment = If this is disabled, entity translucency will also get disabled
 
 option.sky_red = Sky red value
 option.sky_green = Sky green value
 option.sky_blue = Sky blue values
-option.sky_red.comment = the stars only come out at night! the stars will not show if it is to bright.
-option.sky_green.comment = the stars only come out at night! the stars will not show if it is to bright.
-option.sky_blue.comment = the stars only come out at night! the stars will not show if it is to bright.
+option.sky_red.comment = §cWARNING§r: The stars only come out at night! The stars will not show if the value is too bright.
+option.sky_green.comment = §cWARNING§r: The stars only come out at night! The stars will not show if the value is too bright.
+option.sky_blue.comment = §cWARNING§r: The stars only come out at night! The stars will not show if the value is too bright.
 
 option.particle_red = Particle red value
 option.particle_green = Particle green value
@@ -49,9 +49,9 @@ option.particle_blue = Particle blue value
 option.star_red = Star red value
 option.star_green = Star green value
 option.star_blue = Star blue value
-option.star_red.comment = as the stars get darker they become more transparent
-option.star_green.comment = as the stars get darker they become more transparent
-option.star_blue.comment = as the stars get darker they become more transparent
+option.star_red.comment = As the stars get darker they become more transparent
+option.star_green.comment = As the stars get darker they become more transparent
+option.star_blue.comment = As the stars get darker they become more transparent
 
 option.weather_red = Weather red value
 option.weather_green = Weather green value
@@ -63,7 +63,7 @@ option.hand_blue = Hand blue value
 option.hand_invisible = Hand invisiblity
 value.hand_invisible.0 = False
 value.hand_invisible.1 = True
-option.hand_invisible.comment = if enabled the hand will not be visible
+option.hand_invisible.comment = If enabled, your hand will not be visible
 
 option.clouds_red = Clouds red value
 #nice (again)
@@ -72,7 +72,7 @@ option.clouds_blue = Clouds blue value
 option.hide_clouds = Hide clouds
 value.hide_clouds.0 = False
 value.hide_clouds.1 = True
-option.hide_clouds.comment = controles if clouds are visible
+option.hide_clouds.comment = Controls cloud visibility
 #I love we use 0 and 1 (black and white) for variables too :3
 
 option.beacon_beams_red = Beacon and entity beams red value
@@ -83,3 +83,5 @@ option.other_red = Other red values
 option.other_green = Other green value
 option.other_blue = Other blue value
 #as far as I can tell this only applys to lines ie fishing rod/leads
+
+#hello there

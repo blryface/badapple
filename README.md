@@ -19,11 +19,11 @@ This is a - now working - Iris<!--/OptiFine--> shader which changes rendering to
 <!-- Nobody has asked anything yet but I'll just say the obvious here -->
 Q: Does this work on OptiFine?
 
-A: Yes, with the OptiFine version specifically.
+A: Yes, as long as you're at least on 1.17.
 
 Q: Does this work on Iris/Oculus?
 
-A: Yes, with the Iris version specifically.
+A: Yes.
 
 Q: Does this work on 1.8?
 

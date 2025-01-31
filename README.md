@@ -9,11 +9,10 @@ This is a - now working - Iris<!--/OptiFine--> shader which changes rendering to
 
 ## Screenshots
 
-![Screenshots1](https://raw.githubusercontent.com/blryface/badapple/refs/heads/images/screenshots1.avif)
+![](https://raw.githubusercontent.com/blryface/badapple/refs/heads/images/animation.avif)
 
-![Screenshots2](https://raw.githubusercontent.com/blryface/badapple/refs/heads/images/screenshots2.avif)
+<!-- Future YouTube Link here, GitHub version may be an MP4 on the Images branch if it's small enough -->
 
-![Screenshots3](https://raw.githubusercontent.com/blryface/badapple/refs/heads/images/screenshots3.avif)
 
 ## FAQ
 

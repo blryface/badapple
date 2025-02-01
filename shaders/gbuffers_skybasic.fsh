@@ -16,9 +16,7 @@ layout(location = 0) out vec4 outColor0;
 
 void main() {
 	vec4 color;
+	color = vec4(sky_red, sky_green, sky_blue, 1);
 	color = vec4(star_red*starData, star_green*starData, star_blue*starData, starData);
-	if(starData==0){
-		color = vec4(sky_red, sky_green, sky_blue, 1);
-	}
 	outColor0 = vec4(color);
 }

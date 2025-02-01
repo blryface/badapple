@@ -3,7 +3,7 @@
 ![Modrinth Downloads](https://img.shields.io/modrinth/dt/6sOj95GW?logo=modrinth&label=Modrinth%20downloads&color=%231bd96a&style=for-the-badge) ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/blryface/badapple/total?style=for-the-badge&logo=github&label=Github%20Downloads) ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/blryface/badapple?style=for-the-badge&logo=github)
 
 
-This is a - now working - Iris/OptiFine shader which changes rendering to look like [【東方】Bad Apple!! ＰＶ【影絵】](https://youtu.be/FtutLA63Cp8)
+This is an Iris/OptiFine shader which changes rendering to look like [【東方】Bad Apple!! ＰＶ【影絵】](https://youtu.be/FtutLA63Cp8)
 
 ![Supports Iris Shaders](https://badger-api-staging.worldwidepixel.ca/cozy?gradientStart=74CACF&gradientEnd=00254A&lineOne=Supports&lineTwo=Iris&colourOne=FFF&colourTwo=FFF&iconUrl=https://raw.githubusercontent.com/IrisShaders/Iris/refs/heads/multiloader-new/docs/iris-logo-transparent.png&format=svg) ![Supports Optifine](https://badger-api-staging.worldwidepixel.ca/cozy?gradientStart=962f30&gradientEnd=6c171e&lineOne=Doesn't%20support&lineTwo=Optifine&colourOne=FFF&colourTwo=FFF&iconUrl=https://pt.minecraft.wiki/images/OptiFine_logo.jpg&format=svg) 
 

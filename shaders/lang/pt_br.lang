@@ -8,6 +8,7 @@ screen.sky = Cor do céu
 screen.particles = Cor das partículas
 screen.stars = Cor das estrelas
 screen.weather = Cor do tempo
+screen.water = Water color
 screen.hand = Cor da mão
 screen.clouds = Cor das nuvens
 screen.beacon_beams = Cor dos feixes de luz das entidades e do sinalizador
@@ -18,6 +19,7 @@ screen.sky.comment = Controla a cor do céu. Um valor muito alto vai deixar as e
 screen.particles.comment = Controla a cor das partículas
 screen.stars.comment = Controla a cor das estrelas
 screen.weather.comment = Controla a cor da chuva/neve (não inclui respingos de chuva)
+screen.water.comment = Controls the color of translucent terrain (including water)
 screen.hand.comment = Controla a cor da sua mão
 screen.clouds.comment = Controla a cor das nuvens
 screen.beacon_beams.comment = Controla a cor dos feixes de sinalizador e feixes do Dragão do Fim
@@ -56,6 +58,10 @@ option.star_blue.comment = Conforme as estrelas ficam mais escuras, elas ficam m
 option.weather_red = Valor vermelho do tempo
 option.weather_green = Valor verde do tempo
 option.weather_blue = Valor azul do tempo
+
+option.water_red = Water red value
+option.water_green = Water green value
+option.water_blue = Water blue value
 
 option.hand_red = Valor vermelho da mão
 option.hand_green = Valor verde da mão

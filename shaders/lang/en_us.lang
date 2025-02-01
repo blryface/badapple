@@ -62,6 +62,7 @@ option.weather_blue = Weather blue value
 option.water_red = Water red value
 option.water_green = Water green value
 option.water_blue = Water blue value
+option.water_translusency_addition = idk how to describe it
 
 option.hand_red = Hand red value
 option.hand_green = Hand green value

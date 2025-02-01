@@ -7,6 +7,7 @@ uniform sampler2D gtexture;
 #define water_red 1 // [0 0.125 0.25 0.375 0.5 0.625 0.75 0.875 1]
 #define water_green 1 // [0 0.125 0.25 0.375 0.5 0.625 0.75 0.875 1]
 #define water_blue 1 // [0 0.125 0.25 0.375 0.5 0.625 0.75 0.875 1]
+#define water_translusency_addition 1 // [-1 -0.5 0 0.5 1]
 
 /* DRAWBUFFERS:0 */
 layout(location = 0) out vec4 outColor0;
@@ -21,5 +22,5 @@ void main(){
     if (transparency < .1) {
         discard;
     }
-    outColor0 = vec4(outputColor, transparency);
+    outColor0 = vec4(outputColor, transparency+water_translusency_addition);
 }

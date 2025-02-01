@@ -5,7 +5,7 @@
 
 This is an Iris/OptiFine shader which changes rendering to look like [【東方】Bad Apple!! ＰＶ【影絵】](https://youtu.be/FtutLA63Cp8)
 
-![Supports Iris Shaders](https://badger-api-staging.worldwidepixel.ca/cozy?gradientStart=74CACF&gradientEnd=00254A&lineOne=Supports&lineTwo=Iris&colourOne=FFF&colourTwo=FFF&iconUrl=https://raw.githubusercontent.com/IrisShaders/Iris/refs/heads/multiloader-new/docs/iris-logo-transparent.png&format=svg) ![Supports Optifine](https://badger-api-staging.worldwidepixel.ca/cozy?gradientStart=962f30&gradientEnd=6c171e&lineOne=Doesn't%20support&lineTwo=Optifine&colourOne=FFF&colourTwo=FFF&iconUrl=https://pt.minecraft.wiki/images/OptiFine_logo.jpg&format=svg) 
+![Supports Iris Shaders](https://badger-api-staging.worldwidepixel.ca/cozy?gradientStart=74CACF&gradientEnd=00254A&lineOne=Supports&lineTwo=Iris&colourOne=FFF&colourTwo=FFF&iconUrl=https://raw.githubusercontent.com/IrisShaders/Iris/refs/heads/multiloader-new/docs/iris-logo-transparent.png&format=svg) ![Supports Optifine](https://badger-api-staging.worldwidepixel.ca/cozy?gradientStart=962f30&gradientEnd=6c171e&lineOne=Supports&lineTwo=Optifine&colourOne=FFF&colourTwo=FFF&iconUrl=https://pt.minecraft.wiki/images/OptiFine_logo.jpg&format=svg)
 
 ## Screenshots
 

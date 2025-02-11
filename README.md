@@ -9,7 +9,7 @@ This is an Iris/OptiFine shader which changes rendering to look like [【東方�
 
 ## Screenshots
 
-![](https://raw.githubusercontent.com/blryface/badapple/refs/heads/images/animation.avif)
+![](https://raw.githubusercontent.com/blryface/badapple/refs/heads/images/previews/animation.avif)
 
 <!-- Future YouTube Link here, GitHub version may be an MP4 on the Images branch if it's small enough -->
 

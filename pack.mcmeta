@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "supported_formats" : [8, 18],
+    "description": "shader for Canvas\n§8By thinkseal"
+  }
+}

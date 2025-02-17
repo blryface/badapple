@@ -62,7 +62,7 @@ option.weather_blue = Weather blue value
 option.Translusent_blocks_red = Translusent blocks red value
 option.Translusent_blocks_green = Translusent blocks green value
 option.Translusent_blocks_blue = Translusent blocks blue value
-option.Translusent_blocks_translusency_addition = idk how to describe it
+option.Translusent_blocks_translusency_addition = Imagine translucent object's translucency are on a scale of 0 to 1 of how translucent they are, we are 1 is completely opaque and 0 is completely transparent this adds to that value
 
 option.hand_red = Hand red value
 option.hand_green = Hand green value

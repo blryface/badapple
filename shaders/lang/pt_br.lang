@@ -1,0 +1,92 @@
+profile.white_on_black = Branco no preto
+profile.black_on_white = Preto no branco
+profile.comment = Opção rápida pra mudar como tudo é. Branco no preto deixa o céu e os blocos pretos e as entidades brancas, Preto no branco deixa o céu e os blocos brancos e as entidades pretas. Branco no preto faz as estrelas pararem de funcionar.
+
+screen.blocks = Cor do bloco
+screen.entities = Cor das entidades
+screen.sky = Cor do céu
+screen.particles = Cor das partículas
+screen.stars = Cor das estrelas
+screen.weather = Cor do tempo
+screen.Translusent_blocks = Translusent blocks color
+screen.hand = Cor da mão
+screen.clouds = Cor das nuvens
+screen.beacon_beams = Cor dos feixes de luz das entidades e do sinalizador
+screen.other = Outras cores
+screen.blocks.comment = Controla a cor dos blocos
+screen.entities.comment = Controla a cor das entidades
+screen.sky.comment = Controla a cor do céu. Um valor muito alto vai deixar as estrelas invisíveis
+screen.particles.comment = Controla a cor das partículas
+screen.stars.comment = Controla a cor das estrelas
+screen.weather.comment = Controla a cor da chuva/neve (não inclui respingos de chuva)
+screen.Translusent_blocks.comment = Controls the color of translucent terrain (including water)
+screen.hand.comment = Controla a cor da sua mão
+screen.clouds.comment = Controla a cor das nuvens
+screen.beacon_beams.comment = Controla a cor dos feixes de sinalizador e feixes do Dragão do Fim
+screen.other.comment = Controla a cor de coisas que eu já me esqueci
+
+option.blocks_red = Valor vermelho dos blocos
+option.blocks_green = Valor verde dos blocos
+option.blocks_blue = Valor azul dos blocos
+
+option.entites_red = Valor vermelho das entidades
+option.entites_green = Valor verde das entidades
+option.entites_blue = Valor azul das entidades
+option.entites_shadows = Ativar sombras de entidade
+value.entites_shadows.0 = OFF
+value.entites_shadows.1 = ON
+option.entites_shadows.comment = Se desativado, também vai quebrar a translucidez das entidades.
+
+option.sky_red = Valor vermelho do céu
+option.sky_green = Valor azul do céu
+option.sky_blue = Valor azul do céu
+option.sky_red.comment = §cAVISO!§r: As estrelas só aparecem a noite! As estrelas não aparecem se o céu for muito claro.
+option.sky_green.comment = §cAVISO!§r: As estrelas só aparecem a noite! As estrelas não aparecem se o céu for muito claro.
+option.sky_blue.comment = §cAVISO!§r: As estrelas só aparecem a noite! As estrelas não aparecem se o céu for muito claro.
+
+option.particle_red = Valor vermelho das partículas
+option.particle_green = Valor verde das partículas
+option.particle_blue = Valor azul das partículas
+
+option.star_red = Valor vermelho das estrelas
+option.star_green = Valor verde das estrelas
+option.star_blue = Valor azul das estrelas
+option.star_red.comment = Conforme as estrelas ficam mais escuras, elas ficam mais transparentes
+option.star_green.comment = Conforme as estrelas ficam mais escuras, elas ficam mais transparentes
+option.star_blue.comment = Conforme as estrelas ficam mais escuras, elas ficam mais transparentes
+
+option.weather_red = Valor vermelho do tempo
+option.weather_green = Valor verde do tempo
+option.weather_blue = Valor azul do tempo
+
+option.Translusent_blocks_red = Translusent blocks red value
+option.Translusent_blocks_green = Translusent blocks green value
+option.Translusent_blocks_blue = Translusent blocks blue value
+option.Translusent_blocks_translusency_addition = idk how to describe it
+
+option.hand_red = Valor vermelho da mão
+option.hand_green = Valor verde da mão
+option.hand_blue = Valor azul da mão
+option.hand_invisible = Mão invisível
+value.hand_invisible.0 = Desativado
+value.hand_invisible.1 = Ativado
+option.hand_invisible.comment = Se ativado, sua mão vai ficar invisível
+
+option.clouds_red = Valor vermelho das nuvens
+#nice (again)
+option.clouds_green = Valor verde das nuvens
+option.clouds_blue = Valor azul das nuvens
+option.hide_clouds = Esconder nuvens
+value.hide_clouds.0 = Desativado
+value.hide_clouds.1 = Ativado
+option.hide_clouds.comment = Controla se as nuvens são visíveis
+#I love we use 0 and 1 (black and white) for variables too :3
+
+option.beacon_beams_red = Valor vermelho dos feixes de luz das entidades e do sinalizador
+option.beacon_beams_green = Valor verde dos feixes de luz das entidades e do sinalizador
+option.beacon_beams_blue = Valor azul dos feixes de luz das entidades e do sinalizador
+
+option.other_red = Outros valores vermelhos
+option.other_green = Outros valores verdes
+option.other_blue = Outros valores azuis
+#as far as I can tell this only applys to lines ie fishing rod/leads

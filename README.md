@@ -19,7 +19,7 @@ This is an Iris/OptiFine shader which changes rendering to look like [【東方�
 <!-- Nobody has asked anything yet but I'll just say the obvious here -->
 Q: Does this work on OptiFine?
 
-A: Yes, as long as you're at least on 1.17. **This does come with an epilepsy warning if you are on an m-series mac.**
+A: Yes. <!--, as long as you're at least on 1.17. **This does come with an epilepsy warning if you are on an m-series mac.** -->
 
 Q: Does this work on Iris/Oculus?
 
@@ -27,7 +27,7 @@ A: Yes.
 
 Q: Does this work on 1.8?
 
-A: <!-- The OptiFine version should work with 1.8. --> No, not currently. We are working to get it working on 1.8, but as of writing, it doesn't support it.
+A: The Legacy version should work with 1.8. <!-- No, not currently. We are working to get it working on 1.8, but as of writing, it doesn't support it. -->
 
 ## Pridepack
 

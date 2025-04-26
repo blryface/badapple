@@ -2,6 +2,7 @@ profile.white_on_black = Branco no preto
 profile.black_on_white = Preto no branco
 profile.comment = Opção rápida pra mudar como tudo é. Branco no preto deixa o céu e os blocos pretos e as entidades brancas, Preto no branco deixa o céu e os blocos brancos e as entidades pretas. Branco no preto faz as estrelas pararem de funcionar.
 
+screen.general_settings = General settings
 screen.blocks = Cor do bloco
 screen.entities = Cor das entidades
 screen.sky = Cor do céu
@@ -25,6 +26,12 @@ screen.clouds.comment = Controla a cor das nuvens
 screen.beacon_beams.comment = Controla a cor dos feixes de sinalizador e feixes do Dragão do Fim
 screen.other.comment = Controla a cor de coisas que eu já me esqueci
 
+option.color_inversion_during_day_night = Color inversion during day/night
+option.color_inversion_during_day_night.comment = Inverts the colors of the game during day/night. Sadly, there is currently no transition so epilepsy warning.
+value.color_inversion_during_day_night.0 = Off
+value.color_inversion_during_day_night.1 = Day
+value.color_inversion_during_day_night.2 = Night
+
 option.blocks_red = Valor vermelho dos blocos
 option.blocks_green = Valor verde dos blocos
 option.blocks_blue = Valor azul dos blocos
@@ -47,6 +54,13 @@ option.sky_blue.comment = §cAVISO!§r: As estrelas só aparecem a noite! As est
 option.particle_red = Valor vermelho das partículas
 option.particle_green = Valor verde das partículas
 option.particle_blue = Valor azul das partículas
+
+option.sun_and_moon_red = Sun and Moon red value
+option.sun_and_moon_green = Sun and Moon green value
+option.sun_and_moon_blue = Sun and Moon blue values
+option.sun_and_moon_red.comment = §cWARNING§r: The Sun and Moon only come out at night! The Sun and Moon will not show if the value is too bright.
+option.sun_and_moon_green.comment = §cWARNING§r: The Sun and Moon only come out at night! The Sun and Moon will not show if the value is too bright.
+option.sun_and_moon_blue.comment = §cWARNING§r: The Sun and Moon only come out at night! The Sun and Moon will not show if the value is too bright.
 
 option.star_red = Valor vermelho das estrelas
 option.star_green = Valor verde das estrelas

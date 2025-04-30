@@ -2,10 +2,12 @@ profile.white_on_black = White on black
 profile.black_on_white = Black on white
 profile.comment = Quick setting to change how everything looks. White on black makes the sky and blocks black and entities white, Black on white makes the sky and blocks white and entities black. White on black will also break stars
 
+screen.general_settings = General settings
 screen.blocks = Block color
 screen.entities = Entity color
 screen.sky = Sky color
 screen.particles = Particle color
+screen.sun_and_moon = Sun and Moon color
 screen.stars = Star color
 screen.weather = Weather color
 screen.Translusent_blocks = Translusent blocks color
@@ -16,7 +18,7 @@ screen.other = Other colors
 screen.blocks.comment = Controls the colors of blocks
 screen.entities.comment = Controls the colors of entities
 screen.sky.comment = Controls the colors of the sky. Setting it to a very bright color will break stars.
-screen.particles.comment = Controls the colors of particles
+screen.particles.comment = Controls the colors of particles \n §cWARNING§r: Only works on Iris!
 screen.stars.comment = Controls the colors of stars
 screen.weather.comment = Controls the colors of the weather (doesn’t include rain splash particles)
 screen.Translusent_blocks.comment = Controls the color of translucent terrain (including water)
@@ -24,6 +26,12 @@ screen.hand.comment = Controls the colors of your hand
 screen.clouds.comment = Controls the colors of the clouds
 screen.beacon_beams.comment = Controls the color of beacon and ender dragon beam color
 screen.other.comment = Controls the color of things I forgot about
+
+option.color_inversion_during_day_night = Color inversion during day/night
+option.color_inversion_during_day_night.comment = Inverts the colors of the game during day/night. Sadly, there is currently no transition so epilepsy warning.
+value.color_inversion_during_day_night.0 = Off
+value.color_inversion_during_day_night.1 = Day
+value.color_inversion_during_day_night.2 = Night
 
 option.blocks_red = Blocks red value
 option.blocks_green = Blocks green value
@@ -36,6 +44,13 @@ option.entites_shadows = Enable entity shaddows
 value.entites_shadows.0 = Off
 value.entites_shadows.1 = On
 option.entites_shadows.comment = If this is disabled, entity translucency will also get disabled
+
+option.sun_and_moon_red = Sun and Moon red value
+option.sun_and_moon_green = Sun and Moon green value
+option.sun_and_moon_blue = Sun and Moon blue values
+option.sun_and_moon_red.comment = §cWARNING§r: The Sun and Moon only come out at night! The Sun and Moon will not show if the value is too bright.
+option.sun_and_moon_green.comment = §cWARNING§r: The Sun and Moon only come out at night! The Sun and Moon will not show if the value is too bright.
+option.sun_and_moon_blue.comment = §cWARNING§r: The Sun and Moon only come out at night! The Sun and Moon will not show if the value is too bright.
 
 option.sky_red = Sky red value
 option.sky_green = Sky green value
@@ -73,7 +88,7 @@ value.hand_invisible.1 = True
 option.hand_invisible.comment = If enabled, your hand will not be visible
 
 option.clouds_red = Clouds red value
-#nice (again)
+#nice (again not anymore lol)
 option.clouds_green = Clouds green value
 option.clouds_blue = Clouds blue value
 option.hide_clouds = Hide clouds

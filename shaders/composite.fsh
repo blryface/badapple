@@ -3,6 +3,7 @@
 #define color_inversion_during_day_night 0 // [0 1 2]
 
 uniform sampler2D colortex0;
+uniform sampler2D colortex1;
 
 uniform float sunAngle;
 
@@ -17,6 +18,7 @@ void main(){
         color_inverted = true;
     }
     vec4 outputColor = texture2D(colortex0, texCoord);
+    outputColor = abs((vec4(1-texture2D(colortex1, texCoord)))-outputColor);
     if (color_inverted){
         outputColor = 1-outputColor;
     }

@@ -89,8 +89,8 @@ value.Translusent_blocks_translusency_addition.-0.25 = -1
 value.Translusent_blocks_translusency_addition.-0.125 = -0.5
 value.Translusent_blocks_translusency_addition.2 = 0.5
 value.Translusent_blocks_translusency_addition.4 = 1
-value.Translusent_blocks_invert_colors.1 = True
-value.Translusent_blocks_invert_colors.0 = False
+value.Translusent_blocks_invert_colors.1 = False
+value.Translusent_blocks_invert_colors.0 = True
 
 option.hand_red = Hand red value
 option.hand_green = Hand green value

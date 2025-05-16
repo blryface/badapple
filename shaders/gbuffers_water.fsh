@@ -19,7 +19,6 @@ void main(){
     if(transparency <= 0.15){
         transparency = 0;
     }
-    vec4 inverted_block_color = vec4(1,1,1,1);
     inverted_block_color = vec4(Translusent_blocks_invert_colors,Translusent_blocks_invert_colors,Translusent_blocks_invert_colors,1);
 /* DRAWBUFFERS:01 */
     gl_FragData[0] = vec4(outputColor, transparency/4);

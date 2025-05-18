@@ -31,11 +31,15 @@ option.color_inversion_during_day_night = ʇɥɓᴉu\ʎɐp ɓuᴉɹnp uoᴉsɹǝ
 option.color_inversion_during_day_night.comment = ·ɓuᴉuɹɐʍ ʎsdǝlᴉdǝ os uoᴉʇᴉsuɐɹʇ ou ʎlʇuǝɹɹnɔ sᴉ ǝɹǝɥʇ 'ʎlpɐS ·ʇɥɓᴉu\ʎɐp ɓuᴉɹnp ǝɯɐɓ ǝɥʇ ɟo sɹoloɔ ǝɥʇ sʇɹǝʌuI
 option.cutout_blocks_are_inverted = Invert color of cutout blocks
 option.cutout_blocks_are_inverted.comment = §cWARNING§r: Iris only! \nCutout blocks are blocks that have both fully transparent and fully opaque parts like leafs and flowers.
+option.Do_DH_blocks_render = Distant Horizons block rendering
+option.Do_DH_blocks_render.comment = This option determines if Distant Horizon blocks render, if you have the mod installed and it is working.
 value.color_inversion_during_day_night.0 = ɟɟO
 value.color_inversion_during_day_night.1 = ʎɐᗡ
 value.color_inversion_during_day_night.2 = ʇɥɓᴉN
 value.cutout_blocks_are_inverted.0 = False
 value.cutout_blocks_are_inverted.1 = True
+value.Do_DH_blocks_render.1 = True
+value.Do_DH_blocks_render.0 = False
 
 option.blocks_red = ǝnlɐʌ pǝɹ sʞɔolᗺ
 option.blocks_green = ǝnlɐʌ uǝǝɹɓ sʞɔolᗺ

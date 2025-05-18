@@ -31,11 +31,15 @@ option.color_inversion_during_day_night = Color inversion during day/night
 option.color_inversion_during_day_night.comment = Inverts the colors of the game during day/night. Sadly, there is currently no transition so epilepsy warning.
 option.cutout_blocks_are_inverted = Invert color of cutout blocks
 option.cutout_blocks_are_inverted.comment = §cWARNING§r: Iris only! \nCutout blocks are blocks that have both fully transparent and fully opaque parts like leafs and flowers.
+option.Do_DH_blocks_render = Distant Horizons block rendering
+option.Do_DH_blocks_render.comment = This option determines if Distant Horizon blocks render, if you have the mod installed and it is working.
 value.color_inversion_during_day_night.0 = Off
 value.color_inversion_during_day_night.1 = Day
 value.color_inversion_during_day_night.2 = Night
 value.cutout_blocks_are_inverted.0 = False
 value.cutout_blocks_are_inverted.1 = True
+value.Do_DH_blocks_render.1 = True
+value.Do_DH_blocks_render.0 = False
 
 option.blocks_red = Blocks red value
 option.blocks_green = Blocks green value

@@ -1,4 +1,4 @@
-#version 120 compatibility
+#version 150 compatibility
 
 out vec4 glcolor;
 

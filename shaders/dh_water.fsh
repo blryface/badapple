@@ -1,4 +1,4 @@
-#version 120 compatibility
+#version 150 compatibility
 
 #define Translusent_blocks_red 1 // [0 0.125 0.25 0.375 0.5 0.625 0.75 0.875 1]
 #define Translusent_blocks_green 1 // [0 0.125 0.25 0.375 0.5 0.625 0.75 0.875 1]

@@ -47,10 +47,6 @@ option.blocks_blue = Valor azul dos blocos
 option.entites_red = Valor vermelho das entidades
 option.entites_green = Valor verde das entidades
 option.entites_blue = Valor azul das entidades
-option.entites_shadows = Ativar sombras de entidade
-value.entites_shadows.0 = OFF
-value.entites_shadows.1 = ON
-option.entites_shadows.comment = Se desativado, também vai quebrar a translucidez das entidades.
 
 option.sky_red = Valor vermelho do céu
 option.sky_green = Valor azul do céu

@@ -48,10 +48,6 @@ option.blocks_blue = Blocks blue value
 option.entites_red = Entites red value
 option.entites_green = Entites green value
 option.entites_blue = Entites blue value
-option.entites_shadows = Enable entity shaddows
-value.entites_shadows.0 = Off
-value.entites_shadows.1 = On
-option.entites_shadows.comment = If this is disabled, entity translucency will also get disabled
 
 option.sun_and_moon_red = Sun and Moon red value
 option.sun_and_moon_green = Sun and Moon green value

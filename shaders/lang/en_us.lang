@@ -82,7 +82,7 @@ option.Translucent_blocks_red = Translucent blocks red value
 option.Translucent_blocks_green = Translucent blocks green value
 option.Translucent_blocks_blue = Translucent blocks blue value
 option.Translucent_blocks_translusency_addition = Translucent blocks translucency addition value
-option.Translucent_blocks_translusency_addition.comment = Imagine translucent object's translucency are on a scale of 0 to 1 of how translucent they are, we are 1 is completely opaque and 0 is completely transparent this adds to that value
+option.Translucent_blocks_translusency_addition.comment = Imagine translucent object's translucency are on a scale of 0 to 1 of how translucent they are, where 1 is completely opaque and 0 is completely transparent. This option modifies that value.
 option.Translucent_blocks_invert_colors = Translucent blocks invert colors
 option.Translucent_blocks_invert_colors.comment = This option determines whether translucent blocks invert the color of what is behind them.
 value.Translucent_blocks_translusency_addition.-0.25 = -1
@@ -108,7 +108,7 @@ option.hide_clouds = Hide clouds
 value.hide_clouds.0 = False
 value.hide_clouds.1 = True
 option.hide_clouds.comment = Controls cloud visibility
-#I love we use 0 and 1 (black and white) for variables too :3
+#I love we use 0 and 1 (black and white) for variables too :3 // :3 - Blurry
 
 option.beacon_beams_red = Beacon and entity beams red value
 option.beacon_beams_green = Beacon and entity beams green value

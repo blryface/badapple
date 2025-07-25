@@ -1,0 +1,117 @@
+profile.white_on_black = 黒地に白
+profile.black_on_white = 白地に黒
+profile.comment = 見た目を簡単に変更できる設定です。黒地に白は空とブロックを黒く、エンティティは白く、白地に黒は空とブロックを白く、エンティティは黒く表示されます。黒地に白は星を壊す効果もあります。
+
+screen.general_settings = 一般設定
+screen.blocks = ブロックカラー
+screen.entities = エンティティの色
+screen.sky = 空の色
+screen.particles = 粒子の色
+screen.sun_and_moon = 太陽と月の色
+screen.stars = 星の色
+screen.weather = 天気の色
+screen.Translucent_blocks =　半透明色のブロックの色
+screen.hand = 手の色
+screen.clouds = 雲の色
+screen.beacon_beams = ビーコンビームとエンティティの色
+screen.other = 他の色
+screen.blocks.comment = ブロックの色を制御する
+screen.entities.comment = エンティティの色を制御する
+screen.sky.comment = 空の色をを制御する。非常に明るい色に設定すると、星のレンダリングが壊れます。
+screen.particles.comment = 粒子の色を制御する　\n§c警告§r: アイリスでのみ動作します!
+screen.stars.comment = 星の色を制御する
+screen.weather.comment = 天気の色を制御する　（雨の雨粒を含まない）
+screen.Translucent_blocks.comment = 半透明色の地形を制御する（水を含めて）
+screen.hand.comment = 手の色を制御する
+screen.clouds.comment = 雲の色を制御する
+screen.beacon_beams.comment = ビーコンとエンダー竜のビームの色を制御する
+screen.other.comment = 忘れたものを制御する
+
+option.color_inversion_during_day_night = 昼夜を問わず色の反転
+option.color_inversion_during_day_night.comment = 昼夜を問わずゲームの色を反転する。残念なことに、現在は移行がないので、てんかんの警告です。
+option.cutout_blocks_are_inverted = 切り抜きブロックの色を変転する
+option.cutout_blocks_are_inverted.comment = §c警告§r: アイリスのみ！\n切り抜きブロックは、葉や花のように完全に透明な部分と完全に不透明な部分の両方を持つブロックです。
+option.Do_DH_blocks_render = Distant Horizonsのブロックレンダリング
+option.Do_DH_blocks_render.comment = このオプションは、修正がインストールされ動作している場合に、Distant Horizon がレンダリングをブロックするかどうかを決定します。
+value.color_inversion_during_day_night.0 = 切
+value.color_inversion_during_day_night.1 = 昼
+value.color_inversion_during_day_night.2 = 夜
+value.cutout_blocks_are_inverted.0 = 偽
+value.cutout_blocks_are_inverted.1 = 真
+value.Do_DH_blocks_render.1 = 真
+value.Do_DH_blocks_render.0 = 偽
+
+option.blocks_red = ブロックの赤色値
+option.blocks_green = ブロックの緑色値
+option.blocks_blue = ブロックの青色値
+
+option.entites_red = エンティティの赤色値
+option.entites_green = エンティティの緑色値
+option.entites_blue = エンティティの青色値
+
+option.sun_and_moon_red = 太陽と月の赤色値
+option.sun_and_moon_green = 太陽と月の緑色値
+option.sun_and_moon_blue = 太陽と月の青色値
+option.sun_and_moon_red.comment = §c警告§r: 太陽と月は夜にのみ表示されます。値が明るすぎると太陽と月は表示されません。
+option.sun_and_moon_green.comment = §c警告§r: 太陽と月は夜にのみ表示されます。値が明るすぎると太陽と月は表示されません。
+option.sun_and_moon_blue.comment = §c警告§r: 太陽と月は夜にのみ表示されます。値が明るすぎると太陽と月は表示されません。
+
+option.sky_red = 空の赤色値
+option.sky_green = 空の緑値
+option.sky_blue = 空の青色値
+option.sky_red.comment = §c警告§r: 星は夜にのみ表示されます。値が明るすぎると星は表示されません。
+option.sky_green.comment = §c警告§r: 星は夜にのみ表示されます。値が明るすぎると星は表示されません。
+option.sky_blue.comment = §c警告§r: 星は夜にのみ表示されます。値が明るすぎると星は表示されません。
+
+option.particle_red = 粒子の赤色値
+option.particle_green = 粒子の緑色値
+option.particle_blue = 粒子の青色値
+
+option.star_red = 星の赤色値
+option.star_green = 星の緑色値
+option.star_blue = 星の青色値
+option.star_red.comment = 星は暗くなるにつれて透明度が増す。
+option.star_green.comment = 星は暗くなるにつれて透明度が増す。
+option.star_blue.comment = 星は暗くなるにつれて透明度が増す。
+
+option.weather_red = 天気の赤色値
+option.weather_green = 天気の緑色値
+option.weather_blue = 天気の青色値
+
+option.Translucent_blocks_red = 半透明色のブロックの赤色値
+option.Translucent_blocks_green = 半透明色のブロックの緑色値
+option.Translucent_blocks_blue = 半透明色のブロックの青色値
+option.Translucent_blocks_translusency_addition = 半透明色のブロックの半透明性の付加価値　
+option.Translucent_blocks_translusency_addition.comment = 半透明オブジェクトの半透明度は0から1のスケールで表され、1は完全に不透明、0は完全に透明です。このオプションは、その値を変更します。
+option.Translucent_blocks_invert_colors = 半透明のブロックは色を反転します
+option.Translucent_blocks_invert_colors.comment = このオプションは、半透明のブロックの背後にあるものの色を反転するかどうかを決定します。
+value.Translucent_blocks_translusency_addition.-0.25 = -1
+value.Translucent_blocks_translusency_addition.-0.125 = -0.5
+value.Translucent_blocks_translusency_addition.2 = 0.5
+value.Translucent_blocks_translusency_addition.4 = 1
+value.Translucent_blocks_invert_colors.1 = 偽
+value.Translucent_blocks_invert_colors.0 = 真
+
+option.hand_red = 手の赤色値
+option.hand_green = 手の緑色値
+option.hand_blue = 手の青色値
+option.hand_invisible = 手の透明化
+value.hand_invisible.0 = 偽
+value.hand_invisible.1 = 真
+option.hand_invisible.comment = 有効にすると、手は見えなくなります。
+
+option.clouds_red = 雲の赤色値
+option.clouds_green = 雲の緑色値
+option.clouds_blue = 雲の青色値
+option.hide_clouds = 雲を隠す
+value.hide_clouds.0 = 偽
+value.hide_clouds.1 = 真
+option.hide_clouds.comment = 雲の透明性を制御する
+
+option.beacon_beams_red = ビーコンビームとエンティティの赤色値
+option.beacon_beams_green = ビーコンビームとエンティティの緑色値
+option.beacon_beams_blue = ビーコンビームとエンティティの青色値
+
+option.other_red = 他の赤色値
+option.other_green = 他の緑色値
+option.other_blue = 他の青色値

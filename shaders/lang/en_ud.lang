@@ -1,0 +1,120 @@
+profile.white_on_black = ʞɔɐlq uo ǝʇᴉɥM
+profile.black_on_white = ǝʇᴉɥʍ uo ʞɔɐlᗺ
+profile.comment = sɹɐʇs ʞɐǝɹq oslɐ llᴉʍ ʞɔɐlq uo ǝʇᴉɥM ·ʞɔɐlq sǝᴉʇᴉʇuǝ puɐ ǝʇᴉɥʍ sʞɔolq puɐ ʎʞs ǝɥʇ sǝʞɐɯ ǝʇᴉɥʍ uo ʞɔɐlᗺ 'ǝʇᴉɥʍ sǝᴉʇᴉʇuǝ puɐ ʞɔɐlq sʞɔolq puɐ ʎʞs ǝɥʇ sǝʞɐɯ ʞɔɐlq uo ǝʇᴉɥM ·sʞool ɓuᴉɥʇʎɹǝʌǝ ʍoɥ ǝɓuɐɥɔ oʇ ɓuᴉʇʇǝs ʞɔᴉnꝹ
+
+screen.general_settings = sɓuᴉʇʇǝs lɐɹǝuǝ⅁
+screen.blocks = ɹoloɔ ʞɔolᗺ
+screen.entities = ɹoloɔ ʎʇᴉʇuƎ
+screen.sky = ɹoloɔ ʎʞS
+screen.particles = ɹoloɔ ǝlɔᴉʇɹɐԀ
+screen.sun_and_moon = ɹoloɔ uooW puɐ unS
+screen.stars = ɹoloɔ ɹɐʇS
+screen.weather = ɹoloɔ ɹǝɥʇɐǝM
+screen.Translucent_blocks = ɹoloɔ sʞɔolq ʇuǝɔnlsuɐɹ⟘
+screen.hand = ɹoloɔ puɐH
+screen.clouds = ɹoloɔ pnolƆ
+screen.beacon_beams = ɹoloɔ sɯɐǝq ʎʇᴉʇuǝ puɐ uoɔɐǝᗺ
+screen.other = sɹoloɔ ɹǝɥʇO
+screen.blocks.comment = sʞɔolq ɟo sɹoloɔ ǝɥʇ sloɹʇuoƆ
+screen.entities.comment = sǝᴉʇᴉʇuǝ ɟo sɹoloɔ ǝɥʇ sloɹʇuoƆ
+screen.sky.comment = ˙ɓuᴉɹǝpuǝɹ ɹɐʇs ʞɐǝɹq llᴉʍ ɹoloɔ ʇɥɓᴉɹq ʎɹǝʌ ɐ oʇ ʇᴉ ɓuᴉʇʇǝS ˙ʎʞs ǝɥʇ ɟo sɹoloɔ ǝɥʇ sloɹʇuoƆ
+screen.particles.comment = ¡sᴉɹI uo sʞɹoʍ ʎluO :§c⅁NINᴚⱯM§r \nsǝlɔᴉʇɹɐd ɟo sɹoloɔ ǝɥʇ sloɹʇuoƆ
+screen.stars.comment = sɹɐʇs ɟo sɹoloɔ ǝɥʇ sloɹʇuoƆ
+screen.weather.comment = (sǝlɔᴉʇɹɐd ɥsɐlds uᴉɐɹ ǝpnlɔuᴉ ʇ’usǝop) ɹǝɥʇɐǝʍ ǝɥʇ ɟo sɹoloɔ ǝɥʇ sloɹʇuoƆ
+screen.Translucent_blocks.comment = (ɹǝʇɐʍ ɓuᴉpnlɔuᴉ) uᴉɐɹɹǝʇ ʇuǝɔnlsuɐɹʇ ɟo ɹoloɔ ǝɥʇ sloɹʇuoƆ
+screen.hand.comment = puɐɥ ɹnoʎ ɟo sɹoloɔ ǝɥʇ sloɹʇuoƆ
+screen.clouds.comment = spnolɔ ǝɥʇ ɟo sɹoloɔ ǝɥʇ sloɹʇuoƆ
+screen.beacon_beams.comment = ɹoloɔ ɯɐǝq uoɓɐɹp ɹǝpuǝ puɐ uoɔɐǝq ɟo ɹoloɔ ǝɥʇ sloɹʇuoƆ
+screen.other.comment = ʇnoqɐ ʇoɓɹoɟ I sɓuᴉɥʇ ɟo ɹoloɔ ǝɥʇ sloɹʇuoƆ
+
+option.color_inversion_during_day_night = ʇɥɓᴉu\ʎɐp ɓuᴉɹnp uoᴉsɹǝʌuᴉ ɹoloƆ
+option.color_inversion_during_day_night.comment = ·ɓuᴉuɹɐʍ ʎsdǝlᴉdǝ os uoᴉʇᴉsuɐɹʇ ou ʎlʇuǝɹɹnɔ sᴉ ǝɹǝɥʇ 'ʎlpɐS ·ʇɥɓᴉu\ʎɐp ɓuᴉɹnp ǝɯɐɓ ǝɥʇ ɟo sɹoloɔ ǝɥʇ sʇɹǝʌuI
+option.cutout_blocks_are_inverted = sʞɔolq ʇnoʇnɔ ɟo ɹoloɔ ʇɹǝʌuI
+option.cutout_blocks_are_inverted.comment = ˙sɹǝʍolɟ puɐ sɟɐǝl ǝʞᴉl sʇɹɐd ǝnbɐdo ʎllnɟ puɐ ʇuǝɹɐdsuɐɹʇ ʎllnɟ ɥʇoq ǝʌɐɥ ʇɐɥʇ sʞɔolq ǝɹɐ sʞɔolq ʇnoʇnƆ\n ¡ʎluo sᴉɹI :§c⅁NINᴚⱯM§r
+option.Do_DH_blocks_render = ɓuᴉɹǝpuǝɹ ʞɔolq suozᴉɹoH ʇuɐʇsᴉᗡ
+option.Do_DH_blocks_render.comment = ˙ɓuᴉʞɹoʍ sᴉ ʇᴉ puɐ pǝllɐʇsuᴉ poɯ ǝɥʇ ǝʌɐɥ noʎ ɟᴉ ˋɹǝpuǝɹ sʞɔolq uozᴉɹoH ʇuɐʇsᴉᗡ ɟᴉ sǝuᴉɯɹǝʇǝp uoᴉʇdo sᴉɥ⟘
+value.color_inversion_during_day_night.0 = ɟɟO
+value.color_inversion_during_day_night.1 = ʎɐᗡ
+value.color_inversion_during_day_night.2 = ʇɥɓᴉN
+value.cutout_blocks_are_inverted.0 = ǝslɐℲ
+value.cutout_blocks_are_inverted.1 = ǝnɹ⟘
+value.Do_DH_blocks_render.1 = ǝnɹ⟘
+value.Do_DH_blocks_render.0 = ǝslɐℲ
+
+option.blocks_red = ǝnlɐʌ pǝɹ sʞɔolᗺ
+option.blocks_green = ǝnlɐʌ uǝǝɹɓ sʞɔolᗺ
+option.blocks_blue = ǝnlɐʌ ǝnlq sʞɔolᗺ
+
+option.entites_red = ǝnlɐʌ pǝɹ sǝʇᴉʇuƎ
+option.entites_green = ǝnlɐʌ uǝǝɹɓ sǝʇᴉʇuƎ
+option.entites_blue = ǝnlɐʌ ǝnlq sǝʇᴉʇuƎ
+
+option.sky_red = ǝnlɐʌ pǝɹ ʎʞS
+option.sky_green = ǝnlɐʌ uǝǝɹɓ ʎʞS
+option.sky_blue = sǝnlɐʌ ǝnlq ʎʞS
+option.sky_red.comment = §c·ʇɥɓᴉɹq ooʇ sᴉ ǝnlɐʌ ǝɥʇ ɟᴉ ʍoɥs ʇou llᴉʍ sɹɐʇs ǝɥ⟘ ¡ʇɥɓᴉu ʇɐ ʇno ǝɯoɔ ʎluo sɹɐʇs ǝɥ⟘ :§c⅁NINᴚⱯM
+option.sky_green.comment = §c·ʇɥɓᴉɹq ooʇ sᴉ ǝnlɐʌ ǝɥʇ ɟᴉ ʍoɥs ʇou llᴉʍ sɹɐʇs ǝɥ⟘ ¡ʇɥɓᴉu ʇɐ ʇno ǝɯoɔ ʎluo sɹɐʇs ǝɥ⟘ :§c⅁NINᴚⱯM
+option.sky_blue.comment = §c·ʇɥɓᴉɹq ooʇ sᴉ ǝnlɐʌ ǝɥʇ ɟᴉ ʍoɥs ʇou llᴉʍ sɹɐʇs ǝɥ⟘ ¡ʇɥɓᴉu ʇɐ ʇno ǝɯoɔ ʎluo sɹɐʇs ǝɥ⟘  :§c⅁NINᴚⱯM
+
+option.particle_red = ǝnlɐʌ pǝɹ ǝlɔᴉʇɹɐԀ
+option.particle_green = ǝnlɐʌ uǝǝɹɓ ǝlɔᴉʇɹɐԀ
+option.particle_blue = ǝnlɐʌ ǝnlq ǝlɔᴉʇɹɐԀ
+
+option.sun_and_moon_red = ǝnlɐʌ pǝɹ uooW puɐ unS
+option.sun_and_moon_green = ǝnlɐʌ uǝǝɹɓ uooW puɐ unS
+option.sun_and_moon_blue = sǝnlɐʌ ǝnlq uooW puɐ unS
+option.sun_and_moon_red.comment = §c·ʇɥɓᴉɹq ooʇ sᴉ ǝnlɐʌ ǝɥʇ ɟᴉ ʍoɥs ʇou llᴉʍ uooW puɐ unS ǝɥ⟘ ¡ʇɥɓᴉu ʇɐ ʇno ǝɯoɔ ʎluo uooW puɐ unS ǝɥ⟘ :§c⅁NINᴚⱯM
+option.sun_and_moon_green.comment = §c·ʇɥɓᴉɹq ooʇ sᴉ ǝnlɐʌ ǝɥʇ ɟᴉ ʍoɥs ʇou llᴉʍ uooW puɐ unS ǝɥ⟘ ¡ʇɥɓᴉu ʇɐ ʇno ǝɯoɔ ʎluo uooW puɐ unS ǝɥ⟘ :§c⅁NINᴚⱯM
+option.sun_and_moon_blue.comment = §c·ʇɥɓᴉɹq ooʇ sᴉ ǝnlɐʌ ǝɥʇ ɟᴉ ʍoɥs ʇou llᴉʍ uooW puɐ unS ǝɥ⟘ ¡ʇɥɓᴉu ʇɐ ʇno ǝɯoɔ ʎluo uooW puɐ unS ǝɥ⟘ :§c⅁NINᴚⱯM
+
+option.star_red = ǝnlɐʌ pǝɹ ɹɐʇS
+option.star_green = ǝnlɐʌ uǝǝɹɓ ɹɐʇS
+option.star_blue = ǝnlɐʌ ǝnlq ɹɐʇS
+option.star_red.comment = ʇuǝɹɐdsuɐɹʇ ǝɹoɯ ǝɯoɔǝq ʎǝɥʇ ɹǝʞɹɐp ʇǝɓ sɹɐʇs ǝɥʇ sⱯ
+option.star_green.comment = ʇuǝɹɐdsuɐɹʇ ǝɹoɯ ǝɯoɔǝq ʎǝɥʇ ɹǝʞɹɐp ʇǝɓ sɹɐʇs ǝɥʇ sⱯ
+option.star_blue.comment = ʇuǝɹɐdsuɐɹʇ ǝɹoɯ ǝɯoɔǝq ʎǝɥʇ ɹǝʞɹɐp ʇǝɓ sɹɐʇs ǝɥʇ sⱯ
+
+option.weather_red = ǝnlɐʌ pǝɹ ɹǝɥʇɐǝM
+option.weather_green = ǝnlɐʌ uǝǝɹɓ ɹǝɥʇɐǝM
+option.weather_blue = ǝnlɐʌ ǝnlq ɹǝɥʇɐǝM
+
+option.Translucent_blocks_red = ǝnlɐʌ pǝɹ sʞɔolq ʇuǝɔnlsuɐɹ⟘
+option.Translucent_blocks_green = ǝnlɐʌ uǝǝɹɓ sʞɔolq ʇuǝɔnlsuɐɹ⟘
+option.Translucent_blocks_blue = ǝnlɐʌ ǝnlq sʞɔolq ʇuǝɔnlsuɐɹ⟘
+option.Translucent_blocks_translusency_addition = ǝnlɐʌ uoᴉʇᴉppɐ ʎɔuǝɔnlsuɐɹʇ sʞɔolq ʇuǝɔnlsuɐɹ⟘
+option.Translucent_blocks_translusency_addition.comment = ǝnlɐʌ ʇɐɥʇ oʇ sppɐ sᴉɥʇ ʇuǝɹɐdsuɐɹʇ ʎlǝʇǝldɯoɔ sᴉ 0 puɐ ǝnbɐdo ʎlǝʇǝldɯoɔ sᴉ ⇂ ǝɹɐ ǝʍ ˋǝɹɐ ʎǝɥʇ ʇuǝɔnlsuɐɹʇ ʍoɥ ɟo ⇂ oʇ 0 ɟo ǝlɐɔs ɐ uo ǝɹɐ ʎɔuǝɔnlsuɐɹʇ s,ʇɔǝſqo ʇuǝɔnlsuɐɹʇ ǝuᴉɓɐɯI
+option.Translucent_blocks_invert_colors = sɹoloɔ ʇɹǝʌuᴉ sʞɔolq ʇuǝɔnlsuɐɹ⟘
+option.Translucent_blocks_invert_colors.comment = ˙ɯǝɥʇ puᴉɥǝq sᴉ ʇɐɥʍ ɟo ɹoloɔ ǝɥʇ ʇɹǝʌuᴉ sʞɔolq ʇuǝɔnlsuɐɹʇ ɹǝɥʇǝɥʍ sǝuᴉɯɹǝʇǝp uoᴉʇdo sᴉɥ⟘
+value.Translucent_blocks_translusency_addition.-0.25 = -1
+value.Translucent_blocks_translusency_addition.-0.125 = -0.5
+value.Translucent_blocks_translusency_addition.2 = 0.5
+value.Translucent_blocks_translusency_addition.4 = 1
+value.Translucent_blocks_invert_colors.1 = ǝnɹ⟘
+value.Translucent_blocks_invert_colors.0 = ǝslɐℲ
+
+option.hand_red = ǝnlɐʌ pǝɹ puɐH
+option.hand_green = ǝnlɐʌ uǝǝɹɓ puɐH
+option.hand_blue = ǝnlɐʌ ǝnlq puɐH
+option.hand_invisible = ʎʇᴉlqᴉsᴉʌuᴉ puɐH
+value.hand_invisible.0 = ǝslɐℲ
+value.hand_invisible.1 = ǝnɹ⟘
+option.hand_invisible.comment = ǝlqᴉsᴉʌ ǝq ʇou llᴉʍ puɐɥ ɹnoʎ 'pǝlqɐuǝ ɟI
+
+option.clouds_red = ǝnlɐʌ pǝɹ spnolƆ
+#nice (again not anymore lol)
+option.clouds_green = ǝnlɐʌ uǝǝɹɓ spnolƆ
+option.clouds_blue = ǝnlɐʌ ǝnlq spnolƆ
+option.hide_clouds = spnolɔ ǝpᴉH
+value.hide_clouds.0 = ǝslɐℲ
+value.hide_clouds.1 = ǝnɹ⟘
+option.hide_clouds.comment = ʎʇᴉlᴉqᴉsᴉʌ pnolɔ sloɹʇuoƆ
+#I love we use 0 and 1 (black and white) for variables too :3
+
+option.beacon_beams_red = ǝnlɐʌ pǝɹ sɯɐǝq ʎʇᴉʇuǝ puɐ uoɔɐǝᗺ
+option.beacon_beams_green = ǝnlɐʌ uǝǝɹɓ sɯɐǝq ʎʇᴉʇuǝ puɐ uoɔɐǝᗺ
+option.beacon_beams_blue = ǝnlɐʌ ǝnlq sɯɐǝq ʎʇᴉʇuǝ puɐ uoɔɐǝᗺ
+
+option.other_red = sǝnlɐʌ pǝɹ ɹǝɥʇO
+option.other_green = ǝnlɐʌ uǝǝɹɓ ɹǝɥʇO
+option.other_blue = ǝnlɐʌ ǝnlq ɹǝɥʇO
+#as far as I can tell this only applys to lines ie fishing rod/leads

@@ -2,13 +2,15 @@ profile.white_on_black = Branco no preto
 profile.black_on_white = Preto no branco
 profile.comment = Opção rápida pra mudar como tudo é. Branco no preto deixa o céu e os blocos pretos e as entidades brancas, Preto no branco deixa o céu e os blocos brancos e as entidades pretas. Branco no preto faz as estrelas pararem de funcionar.
 
+screen.general_settings = General settings
 screen.blocks = Cor do bloco
 screen.entities = Cor das entidades
 screen.sky = Cor do céu
 screen.particles = Cor das partículas
+screen.sun_and_moon = Cor do Sol e da Lua
 screen.stars = Cor das estrelas
 screen.weather = Cor do tempo
-screen.Translusent_blocks = Translusent blocks color
+screen.Translucent_blocks = Translucent blocks color
 screen.hand = Cor da mão
 screen.clouds = Cor das nuvens
 screen.beacon_beams = Cor dos feixes de luz das entidades e do sinalizador
@@ -16,14 +18,28 @@ screen.other = Outras cores
 screen.blocks.comment = Controla a cor dos blocos
 screen.entities.comment = Controla a cor das entidades
 screen.sky.comment = Controla a cor do céu. Um valor muito alto vai deixar as estrelas invisíveis
-screen.particles.comment = Controla a cor das partículas
+screen.particles.comment = Controla a cor das partículas \n§cAVISO§r: Só funciona no Iris!
 screen.stars.comment = Controla a cor das estrelas
 screen.weather.comment = Controla a cor da chuva/neve (não inclui respingos de chuva)
-screen.Translusent_blocks.comment = Controls the color of translucent terrain (including water)
+screen.Translucent_blocks.comment = Controls the color of translucent terrain (including water)
 screen.hand.comment = Controla a cor da sua mão
 screen.clouds.comment = Controla a cor das nuvens
 screen.beacon_beams.comment = Controla a cor dos feixes de sinalizador e feixes do Dragão do Fim
 screen.other.comment = Controla a cor de coisas que eu já me esqueci
+
+option.color_inversion_during_day_night = Inversão de cor durante o dia/noite
+option.color_inversion_during_day_night.comment = Inverte as cores durante o dia/noite. Infelizmente, ainda não há uma transição, então atente-se à fotossensitividade.
+option.cutout_blocks_are_inverted = Inverter as cores de blocos de textura cortada.
+option.cutout_blocks_are_inverted.comment = §cAVISO§r: Apenas no Iris! \nBlocos de textura cortada são os blocos que tem tanto píxeis completamente transparentes quanto píxeis completamente opacos, por exemplo flores e folhas.
+option.Do_DH_blocks_render = Renderização dos blocos do Distant Horizons
+option.Do_DH_blocks_render.comment = Esta opção define se os blocos do Distant Horizons serão renderizados. Só funciona se você tiver o mod instalado e ele estiver funcionando normalmente.
+value.color_inversion_during_day_night.0 = Desligado
+value.color_inversion_during_day_night.1 = Dia
+value.color_inversion_during_day_night.2 = Noite
+value.cutout_blocks_are_inverted.0 = Falso
+value.cutout_blocks_are_inverted.1 = Verdadeiro
+value.Do_DH_blocks_render.1 = Verdadeiro
+value.Do_DH_blocks_render.0 = Falso
 
 option.blocks_red = Valor vermelho dos blocos
 option.blocks_green = Valor verde dos blocos
@@ -32,10 +48,13 @@ option.blocks_blue = Valor azul dos blocos
 option.entites_red = Valor vermelho das entidades
 option.entites_green = Valor verde das entidades
 option.entites_blue = Valor azul das entidades
-option.entites_shadows = Ativar sombras de entidade
-value.entites_shadows.0 = OFF
-value.entites_shadows.1 = ON
-option.entites_shadows.comment = Se desativado, também vai quebrar a translucidez das entidades.
+
+option.sun_and_moon_red = Valor vermelho do Sol e da Lua
+option.sun_and_moon_green = Valor verde do Sol e da Lua
+option.sun_and_moon_blue = Valor azul do Sol e da Lua
+option.sun_and_moon_red.comment = §cAVISO§r: O Sol e a Lua só saem à noite! O Sol e a Lua não irão aparecer se o valor for muito alto.
+option.sun_and_moon_green.comment = §cAVISO§r: O Sol e a Lua só saem à noite! O Sol e a Lua não irão aparecer se o valor for muito alto.
+option.sun_and_moon_blue.comment = §cAVISO§r: O Sol e a Lua só saem à noite! O Sol e a Lua não irão aparecer se o valor for muito alto.
 
 option.sky_red = Valor vermelho do céu
 option.sky_green = Valor azul do céu
@@ -55,14 +74,23 @@ option.star_red.comment = Conforme as estrelas ficam mais escuras, elas ficam ma
 option.star_green.comment = Conforme as estrelas ficam mais escuras, elas ficam mais transparentes
 option.star_blue.comment = Conforme as estrelas ficam mais escuras, elas ficam mais transparentes
 
-option.weather_red = Valor vermelho do tempo
-option.weather_green = Valor verde do tempo
-option.weather_blue = Valor azul do tempo
+option.weather_red = Valor vermelho do clima
+option.weather_green = Valor verde do clima
+option.weather_blue = Valor azul do clima
 
-option.Translusent_blocks_red = Translusent blocks red value
-option.Translusent_blocks_green = Translusent blocks green value
-option.Translusent_blocks_blue = Translusent blocks blue value
-option.Translusent_blocks_translusency_addition = idk how to describe it
+option.Translucent_blocks_red = Valor vermelho dos blocos translúcidos
+option.Translucent_blocks_green = Valor verde dos blocos translúcidos
+option.Translucent_blocks_blue = Valor azul dos blocos translúcidos
+option.Translucent_blocks_translusency_addition = Valor de adição dos blocos translúcidos
+option.Translucent_blocks_translusency_addition.comment = Imagine que a translucidez dos objetos translúcidos têm uma escala de 0 à 1 de o quão translúcidos são, onde 1 é completamente opaco e 0 é completamente transparente. Esta opção modifica esse valor.
+option.Translucent_blocks_invert_colors = Blocos translúcidos invertem cores
+option.Translucent_blocks_invert_colors.comment = Esta opção determina se os blocos translúcidos invertem as cores das coisas atrás deles.
+value.Translucent_blocks_translusency_addition.-0.25 = -1
+value.Translucent_blocks_translusency_addition.-0.125 = -0.5
+value.Translucent_blocks_translusency_addition.2 = 0.5
+value.Translucent_blocks_translusency_addition.4 = 1
+value.Translucent_blocks_invert_colors.1 = Falso
+value.Translucent_blocks_invert_colors.0 = Verdadeiro
 
 option.hand_red = Valor vermelho da mão
 option.hand_green = Valor verde da mão
@@ -80,7 +108,7 @@ option.hide_clouds = Esconder nuvens
 value.hide_clouds.0 = Desativado
 value.hide_clouds.1 = Ativado
 option.hide_clouds.comment = Controla se as nuvens são visíveis
-#I love we use 0 and 1 (black and white) for variables too :3
+#I love we use 0 and 1 (black and white) for variables too :3 // :3 - Blurry
 
 option.beacon_beams_red = Valor vermelho dos feixes de luz das entidades e do sinalizador
 option.beacon_beams_green = Valor verde dos feixes de luz das entidades e do sinalizador

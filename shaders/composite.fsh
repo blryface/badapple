@@ -12,18 +12,15 @@ in vec2 texCoord;
 /* DRAWBUFFERS:0 */
 layout(location = 0) out vec4 outColor0;
 
-void main(){
-    bool color_inverted = false;
-    if(color_inversion_during_day_night == 1 && sunAngle <= 0.5){
-        color_inverted = true;
-    }
-    else if(color_inversion_during_day_night == 2 && sunAngle >= 0.5){
-        color_inverted = true;
-    }
+void main() {
     vec4 outputColor = texture(colortex0, texCoord);
-    outputColor = abs((vec4(1-texture(colortex1, texCoord)))-outputColor);
-    if (color_inverted){
-        outputColor = 1-outputColor;
-    }
+    outputColor = abs(vec4(1 - texture(colortex1, texCoord)) - outputColor);
+
+    #if color_inversion_during_day_night == 1
+    if (sunAngle <= 0.5) outputColor = 1 - outputColor;
+    #elif color_inversion_during_day_night == 2
+    if (sunAngle >= 0.5) outputColor = 1 - outputColor;
+    #endif
+
     outColor0 = outputColor;
 }

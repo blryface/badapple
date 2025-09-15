@@ -14,11 +14,11 @@ layout(location = 0) out vec4 outColor0;
 in vec4 glcolor;
 in vec2 texCoord;
 
-void main(){
-    vec4 outputColorData = texture(gtexture,texCoord) * glcolor;
+void main() {
+    vec4 outputColorData = texture(gtexture, texCoord) * glcolor;
     vec3 outputColor = vec3(entites_red, entites_green, entites_blue);
     float transparency = outputColorData.a;
-    
+
     if (transparency < .1) {
         discard;
     }

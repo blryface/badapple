@@ -14,10 +14,10 @@ layout(location = 0) out vec4 outColor0;
 
 in vec2 texCoord;
 
-void main(){
-    vec4 outputColorData = texture(gtexture,texCoord);
-    vec3 outputColor = vec3(hand_red,hand_green, hand_blue);
-    float transparency = outputColorData.a-hand_invisible;
+void main() {
+    vec4 outputColorData = texture(gtexture, texCoord);
+    vec3 outputColor = vec3(hand_red, hand_green, hand_blue);
+    float transparency = outputColorData.a - hand_invisible;
 
     if (transparency < .1) {
         discard;

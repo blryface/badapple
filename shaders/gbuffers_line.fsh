@@ -7,9 +7,9 @@
 #define other_blue 1 // [0 0.125 0.25 0.375 0.5 0.625 0.75 0.875 1]
 
 /* DRAWBUFFERS:0 */
-layout(location = 0) out vec4 colortex0Out;
+layout(location = 0) out vec4 outColor0;
 
 void main() {
     vec4 outputColor = vec4(other_red,other_green,other_blue,1);
-	colortex0Out = vec4(outputColor);
+	outColor0 = vec4(outputColor);
 }

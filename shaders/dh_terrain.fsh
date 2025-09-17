@@ -12,9 +12,9 @@ uniform float viewWidth;
 
 void main(){
 
-    if(Do_DH_blocks_render == 0){
-        discard;
-    }
+    #if Do_DH_blocks_render == 0
+    discard;
+    #endif
     
     vec3 outputColor = vec3(blocks_red, blocks_green, blocks_blue);
 

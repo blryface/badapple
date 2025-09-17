@@ -21,8 +21,8 @@ void main(){
     if (transparency < 0.1){
         discard;
     }
-    if(cutout_blocks_are_inverted == 1){
-        outputColor = 1-outputColor;
-    }
+    #if cutout_blocks_are_inverted == 1
+    outputColor = 1-outputColor;
+    #endif
     outColor0 = vec4(outputColor, transparency);
 }

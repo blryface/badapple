@@ -15,9 +15,9 @@ uniform float viewWidth;
 in vec4 glcolor;
 
 void main() {
-    if (Do_DH_blocks_render == 0) {
-        discard;
-    }
+    #if Do_DH_blocks_render == 0
+    discard;
+    #endif
 
     vec3 outputColor = vec3(Translucent_blocks_red, Translucent_blocks_green, Translucent_blocks_blue);
     float transparency = (glcolor.a + Translucent_blocks_translusency_addition) / (3 * Translucent_blocks_invert_colors + 1);

@@ -9,19 +9,15 @@ uniform float sunAngle;
 
 varying vec2 texCoord;
 
-void main(){
-    bool color_inverted = false;
-    if(color_inversion_during_day_night == 1 && sunAngle <= 0.5){
-        color_inverted = true;
-    }
-    else if(color_inversion_during_day_night == 2 && sunAngle >= 0.5){
-        color_inverted = true;
-    }
-    vec4 outputColor = texture2D(colortex0, texCoord);
-    outputColor = abs((vec4(1-texture2D(colortex1, texCoord)))-outputColor);
-    if (color_inverted){
-        outputColor = 1-outputColor;
-    }
+void main() {
+    vec4 outputColor = texture(colortex0, texCoord);
+    outputColor = abs(vec4(1 - texture(colortex1, texCoord)) - outputColor);
+
+    #if color_inversion_during_day_night == 1
+    if (sunAngle <= 0.5) outputColor = 1 - outputColor;
+    #elif color_inversion_during_day_night == 2
+    if (sunAngle >= 0.5) outputColor = 1 - outputColor;
+    #endif
 /* DRAWBUFFERS:0 */
     gl_FragData[0] = outputColor;
 }

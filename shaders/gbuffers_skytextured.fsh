@@ -5,8 +5,6 @@
 #define sun_and_moon_blue 1 // [0 0.125 0.25 0.375 0.5 0.625 0.75 0.875 1]
 
 uniform sampler2D gtexture;
-uniform sampler2D lightmap;
-uniform sampler2D shadowtex0;
 
 in vec2 texCoord;
 in vec4 glcolor;

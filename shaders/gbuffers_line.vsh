@@ -3,11 +3,10 @@
 //all the messy code in this file is mostly a port of vanilla line rendering.
 
 const float LINE_WIDTH  = 2.0;
-const float VIEW_SHRINK = 1.0 - (1.0 / 256.0);
 const mat4 VIEW_SCALE   = mat4(
-	VIEW_SHRINK, 0.0, 0.0, 0.0,
-	0.0, VIEW_SHRINK, 0.0, 0.0,
-	0.0, 0.0, VIEW_SHRINK, 0.0,
+	0.99609375, 0.0, 0.0, 0.0,
+	0.0, 0.99609375, 0.0, 0.0,
+	0.0, 0.0, 0.99609375, 0.0,
 	0.0, 0.0, 0.0, 1.0
 );
 
@@ -18,7 +17,6 @@ uniform mat4 projectionMatrix;
 
 in vec3 vaPosition;
 in vec3 vaNormal;
-in vec4 vaColor;
 
 void main() {
 	vec2 resolution   = vec2(viewWidth, viewHeight);

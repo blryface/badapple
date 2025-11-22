@@ -15,9 +15,12 @@ layout(location = 0) out vec4 outColor0;
 in vec2 texCoord;
 
 void main(){
+    #if hide_clouds == 1
+    discard;
+    #endif
     vec4 outputColorData = texture(gtexture,texCoord);
     vec3 outputColor = vec3(clouds_red, clouds_green,clouds_blue);
-    float transparency = outputColorData.a-hide_clouds;
+    float transparency = outputColorData.a;
 
     outColor0 = vec4(outputColor, transparency);
 }

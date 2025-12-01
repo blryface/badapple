@@ -2,12 +2,13 @@
 
 #extension GL_ARB_explicit_attrib_location : enable
 
-uniform sampler2D gtexture;
-
 #define hand_red 1 // [0 0.125 0.25 0.375 0.5 0.625 0.75 0.875 1]
 #define hand_green 1 // [0 0.125 0.25 0.375 0.5 0.625 0.75 0.875 1]
 #define hand_blue 1 // [0 0.125 0.25 0.375 0.5 0.625 0.75 0.875 1]
 #define hand_invisible 0 // [1 0]
+
+uniform sampler2D gtexture;
+uniform float alphaTestRef;
 
 /* DRAWBUFFERS:0 */
 layout(location = 0) out vec4 outColor0;
@@ -22,7 +23,7 @@ void main() {
     vec3 outputColor = vec3(hand_red, hand_green, hand_blue);
     float transparency = outputColorData.a;
 
-    if (transparency < .1) {
+    if (transparency < alphaTestRef) {
         discard;
     }
     outColor0 = vec4(outputColor, transparency);

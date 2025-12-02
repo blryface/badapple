@@ -16,7 +16,7 @@ in vec4 glcolor;
 in vec2 texCoord;
 
 void main() {
-    vec4 outputColorData = texture(gtexture,texCoord)*glcolor;
+    vec4 outputColorData = texture(gtexture, texCoord)*glcolor;
     vec3 outputColor = vec3(entites_red, entites_green, entites_blue);
     float transparency = outputColorData.a;
 

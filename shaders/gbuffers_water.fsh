@@ -18,13 +18,13 @@ layout(location = 1) out vec4 inverted_block_color;
 in vec2 texCoord;
 
 void main(){
-    vec4 outputColorData = texture(gtexture,texCoord);
+    vec4 outputColorData = texture(gtexture, texCoord);
     vec3 outputColor = vec3(Translucent_blocks_red, Translucent_blocks_green, Translucent_blocks_blue);
     float transparency = (outputColorData.a+Translucent_blocks_translusency_addition)/(3*Translucent_blocks_invert_colors+1);
 
     if(transparency <= alphaTestRef*1.5){
         transparency = 0;
     }
-    inverted_block_color = vec4(Translucent_blocks_invert_colors,Translucent_blocks_invert_colors,Translucent_blocks_invert_colors,1);
+    inverted_block_color = vec4(Translucent_blocks_invert_colors, Translucent_blocks_invert_colors, Translucent_blocks_invert_colors, 1);
     outColor0 = vec4(outputColor, transparency/4);
 }

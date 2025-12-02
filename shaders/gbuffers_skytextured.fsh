@@ -13,8 +13,8 @@ in vec4 glcolor;
 layout(location = 0) out vec4 outColor0;
 
 void main(){
-    vec3 outputColor = vec3(sun_and_moon_red,sun_and_moon_green,sun_and_moon_blue);
-    vec4 outputColorData = texture(gtexture,texCoord)*glcolor;
+    vec3 outputColor = vec3(sun_and_moon_red, sun_and_moon_green, sun_and_moon_blue);
+    vec4 outputColorData = texture(gtexture, texCoord)*glcolor;
 
     if ((outputColorData.r+outputColorData.g+outputColorData.b) < 0.38 ) {
         discard;

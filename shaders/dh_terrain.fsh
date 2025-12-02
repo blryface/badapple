@@ -15,11 +15,11 @@ void main(){
     #if Do_DH_blocks_render == 0
     discard;
     #endif
-    
+
     vec3 outputColor = vec3(blocks_red, blocks_green, blocks_blue);
 
-    vec2 fragcord = gl_FragCoord.xy / vec2(viewWidth,viewHeight);
-    float depth = texture2D(depthtex0,fragcord).r;
+    vec2 fragcord = gl_FragCoord.xy / vec2(viewWidth, viewHeight);
+    float depth = texture2D(depthtex0, fragcord).r;
 
     if(depth != 1){
         discard;

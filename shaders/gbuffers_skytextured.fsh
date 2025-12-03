@@ -19,5 +19,5 @@ void main(){
         discard;
     }
 /* DRAWBUFFERS:0 */
-	gl_FragData[0] = vec4(outputColor, outputColorData.a); //gcolor
+	gl_FragData[0] = vec4(outputColor, outputColorData.a);
 }

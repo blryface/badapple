@@ -6,5 +6,5 @@
 
 void main() {
 /* DRAWBUFFERS:0 */
-	gl_FragData[0] = vec4(beacon_beams_red, beacon_beams_green , beacon_beams_blue, 0);
+    gl_FragData[0] = vec4(beacon_beams_red, beacon_beams_green , beacon_beams_blue, 0);
 }

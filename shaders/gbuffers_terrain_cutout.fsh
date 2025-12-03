@@ -14,9 +14,9 @@ void main(){
     vec4 outputColorData = texture2D(texture,texCoord) * glcolor;
     vec3 outputColor = vec3(blocks_red, blocks_green, blocks_blue);
     float transparency = outputColorData.a;
-    if(cutout_blocks_are_inverted == 1){
-        outputColor = 1-outputColor;
-    }
+    #if cutout_blocks_are_inverted == 1
+    outputColor = 1-outputColor;
+    #endif
 /* DRAWBUFFERS:0 */
     gl_FragData[0] = vec4(outputColor, transparency);
 }

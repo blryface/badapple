@@ -8,8 +8,11 @@
 varying vec4 glcolor;
 
 void main(){
+    #if hide_clouds == 1
+    discard;
+    #endif
     vec3 outputColor = vec3(clouds_red, clouds_green,clouds_blue);
-    float transparency = glcolor.a-hide_clouds;
+    float transparency = glcolor.a;
 /* DRAWBUFFERS:0 */
     gl_FragData[0] = vec4(outputColor, transparency);
 }

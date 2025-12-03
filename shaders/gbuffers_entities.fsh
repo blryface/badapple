@@ -11,7 +11,7 @@ varying vec4 glcolor;
 void main(){
 	vec4 outputColorData = texture2D(texture, texCoord) * glcolor;
     vec3 outputColor = vec3(entites_red, entites_green, entites_blue);
-    
+
 /* DRAWBUFFERS:0 */
     gl_FragData[0] = vec4(outputColor, outputColorData.a);
 }

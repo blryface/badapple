@@ -15,11 +15,11 @@ uniform float viewWidth;
 varying vec4 glcolor;
 
 void main(){
-    
+
     #if Do_DH_blocks_render == 0
     discard;
     #endif
-    
+
     vec3 outputColor = vec3(Translucent_blocks_red, Translucent_blocks_green, Translucent_blocks_blue);
     float transparency = (glcolor.a+Translucent_blocks_translusency_addition)/(3*Translucent_blocks_invert_colors+1);
 
@@ -29,7 +29,7 @@ void main(){
     if(depth != 1){
         discard;
     }
-        vec4 inverted_block_color = vec4(Translucent_blocks_invert_colors,Translucent_blocks_invert_colors,Translucent_blocks_invert_colors,1);
+    vec4 inverted_block_color = vec4(Translucent_blocks_invert_colors,Translucent_blocks_invert_colors,Translucent_blocks_invert_colors,1);
 /* DRAWBUFFERS:01 */
     gl_FragData[0] = vec4(outputColor, transparency/4);
     gl_FragData[1] = vec4(inverted_block_color);

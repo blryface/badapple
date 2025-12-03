@@ -7,6 +7,7 @@
 #define Translucent_blocks_invert_colors 0 // [0 1]
 
 uniform sampler2D texture;
+uniform float alphaTestRef;
 
 varying vec2 texCoord;
 varying vec4 glcolor;
@@ -16,7 +17,7 @@ void main(){
     vec3 outputColor = vec3(Translucent_blocks_red, Translucent_blocks_green, Translucent_blocks_blue);
     float transparency = (outputColorData.a+Translucent_blocks_translusency_addition)/(3*Translucent_blocks_invert_colors+1);
 
-    if(transparency <= 0.15){
+    if(transparency <= 1.5*alphaTestRef){
         transparency = 0;
     }
     vec4 inverted_block_color = vec4(Translucent_blocks_invert_colors,Translucent_blocks_invert_colors,Translucent_blocks_invert_colors,1);

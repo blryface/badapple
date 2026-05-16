@@ -16,12 +16,12 @@ void main() {
 	vec4 linePosEnd   = projectionMatrix * modelViewMatrix * vec4(vaPosition + vaNormal, 1.0);
 
 	vec3 ndc1 = linePosStart.xyz / linePosStart.w;
-	vec3 ndc2 = linePosEnd.xyz   / linePosEnd.w;
+	vec2 ndc2 = linePosEnd.xy   / linePosEnd.w;
 
-	vec2 lineScreenDirection = normalize(ndc2.xy - ndc1.xy);
+	vec2 lineScreenDirection = normalize(ndc2 - ndc1.xy);
 	vec2 lineOffset = vec2(-lineScreenDirection.y, lineScreenDirection.x) * LINE_WIDTH / resolution;
 
-	if (lineOffset.x < 0.0) lineOffset = -lineOffset;
-	if (gl_VertexID % 2 != 0) lineOffset = -lineOffset;
+	if (lineOffset.x < 0.0) lineOffset *= -1;
+	if (gl_VertexID % 2 != 0) lineOffset *= -1;
 	gl_Position = vec4((ndc1 + vec3(lineOffset, 0.0)) * linePosStart.w, linePosStart.w);
 }

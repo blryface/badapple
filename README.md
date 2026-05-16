@@ -27,7 +27,11 @@ A: Yes.
 
 Q: Does this work on 1.8?
 
-A: The Legacy version should work with 1.8. <!-- No, not currently. We are working to get it working on 1.8, but as of writing, it doesn't support it. -->
+A: The Legacy version should work with 1.8.
+
+Q: Does this work on Aperture?
+
+A: Not yet I have not had the time to port this shaderpack to Aperture.
 
 ## Pridepack
 
